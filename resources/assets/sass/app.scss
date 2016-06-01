@@ -210,6 +210,9 @@ ul.contact {
       float: left;
 
     }
+    &.primary a {
+      text-decoration-style: dotted;
+    }
     &.secondary {
       clear: left;
       display: block;
