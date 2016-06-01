@@ -64,6 +64,9 @@ a {
   padding: 0px 0px 0px 0px; }
 
 /**********************************
+MIX-INs
+***********************************/
+/**********************************
 HEADER
 ***********************************/
 header {
@@ -159,12 +162,13 @@ ul.contact {
   padding: 0;
   list-style: none;
   line-height: 1.5; }
+  ul.contact li a {
+    text-decoration: none;
+    border-bottom: 1px dotted; }
   ul.contact li.primary {
     display: block;
     width: 100%;
     float: left; }
-  ul.contact li.primary a {
-    text-decoration: underline dotted; }
   ul.contact li.secondary {
     clear: left;
     display: block;

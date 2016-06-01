@@ -82,6 +82,19 @@ a {
 }
 
 /**********************************
+MIX-INs
+***********************************/
+
+@mixin text-decoration-style($value) {
+  @include prefixer(text-decoration-style, $value, moz webkit);
+}
+
+@mixin text-decoration-line($value) {
+  @include prefixer(text-decoration-line, $value, moz webkit);
+}
+
+
+/**********************************
 HEADER
 ***********************************/
 
@@ -204,14 +217,15 @@ ul.contact {
   list-style: none;
   line-height: 1.5;
   li {
+    a {
+        text-decoration: none;
+        border-bottom: 1px dotted;
+    }
     &.primary {
       display: block;
       width: 100%;
       float: left;
 
-    }
-    &.primary a {
-      text-decoration: underline dotted;
     }
     &.secondary {
       clear: left;
