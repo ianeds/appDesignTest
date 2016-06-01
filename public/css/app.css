@@ -164,8 +164,7 @@ ul.contact {
     width: 100%;
     float: left; }
   ul.contact li.primary a {
-    -webkit-text-decoration-style: dotted;
-    text-decoration-style: dotted; }
+    text-decoration: underline dotted; }
   ul.contact li.secondary {
     clear: left;
     display: block;
