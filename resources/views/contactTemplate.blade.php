@@ -9,7 +9,7 @@
         <title>Apparent | Graphic and interactive design studio</title>
         <link rel="stylesheet" href="/css/normalize.css" type="text/css">
         <link rel="stylesheet" href="/css/app.css" type="text/css">
-        <script src="shared/javascript.js"></script> 
+        <script src="shared/jquery-2.2.4.js"></script> 
         </head>
 <body>
 <?php include_once("analyticstracking.php") ?>
@@ -30,6 +30,7 @@
 @yield('content-work')
    
 @yield('footer')
-
+            <script src="shared/jquery-1.12.4.js"></script>
+            <script src="shared/javascript.js"></script> 
     </body>
 </html>

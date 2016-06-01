@@ -9,8 +9,7 @@
         <title>Apparent | Graphic and interactive design studio</title>
         <link rel="stylesheet" href="/css/normalize.css" type="text/css">
         <link rel="stylesheet" href="/css/app.css" type="text/css">
-        <script src="shared/javascript.js"></script> 
-        </head>
+    </head>
 <body>
 <?php include_once("analyticstracking.php") ?>
     <header>
@@ -26,7 +25,7 @@
 <nav>
       <ul>
           <li><a href='/work' class="active">Work</a></li>
-          <li><a href='/contact'>Contact</a></li>
+          <li><a href='/contact' >Contact</a></li>
         </ul>
 </nav>
 
@@ -35,6 +34,7 @@
 @yield('content-work')
    
 @yield('footer')
-
+        <script src="shared/jquery-1.12.4.js"></script>
+        <script src="shared/javascript.js"></script> 
     </body>
 </html>
