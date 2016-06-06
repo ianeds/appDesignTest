@@ -28,15 +28,34 @@ function WidthChange(mq) {
 
 //dropdown Menu
 
+/*
 $( ".dropnav" ).click(function() {
 	$( ".dropnav" ).attr('class', 'dropnavOpen')
  	$( "#dropnavMenu" ).slideToggle(500);
 });
+*/
 
-$('#dropnav').on('click', '.dropnavOpen', function () {
-	var droopNav = $('#dropnav').getElementsByClassName('.dropnavOpen');
-	droopNav.attr('class', 'dropnavClosed')
+$('body').on('click', '.dropnav', function() {
+	var droopnav = $( '#dropnav:nth-child(1)' );
+	droopnav.attr('class', 'dropnavOpen');
 	$( "#dropnavMenu" ).slideToggle(500);
+	//$( "#dropnavMenu" ).slideToggle(500);
+	//$( ".dropnav.open.closed" ).removeClass( "open" ); 
+});
+
+$('body').on('click', '.dropnavOpen', function() {
+	var droopnav = $( '#dropnav:nth-child(1)' );
+	droopnav.attr('class', 'dropnavClosed');
+	$( "#dropnavMenu" ).slideToggle(500);
+	//$( "#dropnavMenu" ).slideToggle(500);
+	//$( ".dropnav.open.closed" ).removeClass( "open" ); 
+});
+
+$('body').on('click', '.dropnavClosed', function() {
+	var droopnav = $( '#dropnav:nth-child(1)' );
+	droopnav.attr('class', 'dropnavOpen');
+	$( "#dropnavMenu" ).slideToggle(500);
+	//$( "#dropnavMenu" ).slideToggle(500);
 	//$( ".dropnav.open.closed" ).removeClass( "open" ); 
 });
 
