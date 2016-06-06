@@ -1,1 +1,64 @@
 
+// media query event handler
+/*
+if (matchMedia) {
+  var mq = window.matchMedia("screen and (min-width: 640px)");
+  mq.addListener(WidthChange);
+  WidthChange(mq);
+}
+
+// media query change
+
+function WidthChange(mq) {
+  if (mq.matches) {
+    console.log("The condition has been met");
+	var appHead = document.getElementById("menu1-1-text");
+	appHead.innerHTML = "about";
+	var appHeadA = document.getElementById("menu1-1-A");
+	appHeadA.setAttribute('href', "/about");
+  } else {
+    console.log("The condition has been met");
+	var appHead = document.getElementById("menu1-1-text");
+	appHead.innerHTML = "apparent";
+	var appHeadA = document.getElementById("menu1-1-A");
+	appHeadA.setAttribute('href', "/"); 
+  }
+}
+*/
+
+//dropdown Menu
+
+$( ".dropnav" ).click(function() {
+	$( ".dropnav" ).attr('class', 'dropnavOpen')
+ 	$( "#dropnavMenu" ).slideToggle(500);
+});
+
+$('#dropnav').on('click', '.dropnavOpen', function () {
+	var droopNav = $('#dropnav').getElementsByClassName('.dropnavOpen');
+	droopNav.attr('class', 'dropnavClosed')
+	$( "#dropnavMenu" ).slideToggle(500);
+	//$( ".dropnav.open.closed" ).removeClass( "open" ); 
+});
+
+/*
+$( "#cross" ).hide();
+
+$( "#dropnavMenu" ).hide();
+$( "#dropnavIcon" ).click(function() {
+$( "#dropnavMenu" ).slideToggle( "slow", function() {
+
+});
+
+});
+
+
+$( "#dropnavIcon" ).click(function() {
+    $( "#dropnavIcon" ).css({'background-image': "url(/images/burger.png)"}).animate({
+	'background-position': '+=100%'},{});
+}); 
+*/
+
+
+
+
+

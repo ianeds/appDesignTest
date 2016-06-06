@@ -12,29 +12,36 @@
     </head>
 <body>
 <?php include_once("analyticstracking.php") ?>
-    <header>
-        <div class="title">
-            <span class="text-logo"><h1>apparent</h1></span>
-            <span class="logo"><a href="/work"><img src="/images/app-logo.svg"></a></span>
-            <span class="tag">
-            graphic and interactive design
-            </span>
-        </div>
+    <header id="siteheader" class="dark">
+        <nav id="topnav" style="">
+            <div class="dropnav" id="dropnav">
+                <div class="dropnavIcon" id="dropnavIcon"></div> 
+                </div>
+                <div class="dropnavMenu" id="dropnavMenu">
+                  <ul>
+                    <li><a href="/about">about</a></li>
+                    <li><a href="/">work</a></li>
+                  </ul> 
+                </div>
+            <div class="headerLogo"><img href="/images/app-logo.svg"></div>
+            
+            <div class="menu1-1"><a id="menu1-1-A" href="/">
+                <h2 id="menu1-1-text">apparent</h2></a></div>
+                
+            <div class="menu1-2"><a id="menu1-2-A" href="/">
+                <h2 id="menu1-2-text">about</h2></a></div>
+
+            <div class="menu1-3"><a id="menu1-3-A" href="/">
+                <h2 id="menu1-3-text">work</h2></a></div>
+        </nav>
     </header>
 
-<nav>
-      <ul>
-          <li><a href='/work' class="active">Work</a></li>
-          <li><a href='/contact' >Contact</a></li>
-        </ul>
-</nav>
+@yield('main')
 
-@yield('main-gallery')
-
-@yield('content-work')
+@yield('bottom')
    
 @yield('footer')
-        <script src="shared/jquery-1.12.4.js"></script>
-        <script src="shared/javascript.js"></script> 
+        <script src="/shared/jquery-2.2.4.js"></script>
+        <script src="/shared/javascript.js"></script> 
     </body>
 </html>

@@ -15,9 +15,9 @@ class PagesController extends Controller
     return view('/pages/work');
     }
 
-    public function contact()
+    public function about()
     {
-    return view('/pages/contact');
+    return view('/pages/about');
     }
 
     public function touchscreen()

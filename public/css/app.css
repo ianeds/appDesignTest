@@ -23,7 +23,9 @@ body {
   font-family: NeutraText;
   font-style: normal;
   font-size: 1em;
-  background-color: #ffffff; }
+  line-height: 1em;
+  background-color: #fff;
+  color: #000; }
 
 #wrapper {
   max-width: 940px;
@@ -34,29 +36,14 @@ img {
   max-width: 100%; }
 
 a {
-  text-decoration: underline;
-  color: #000000; }
+  text-decoration: none;
+  color: #000; }
   a:link, a:visited {
-    color: #000000; }
+    color: #000; }
   a:hover {
-    color: #666666; }
+    color: #000; }
   a:active {
-    color: #000000; }
-
-.bold {
-  font-weight: bold; }
-
-.blocky {
-  display: block;
-  margin: 15px 0 0 0; }
-
-.smallBorder {
-  border-color: #8d8d8d;
-  border-style: solid;
-  border-width: 1px; }
-
-.categories, .content-proofs {
-  padding: 0px 0px 0px 0px; }
+    color: #000; }
 
 .back-button {
   text-align: left;
@@ -67,114 +54,227 @@ a {
 MIX-INs
 ***********************************/
 /**********************************
+ANIMATIONS
+***********************************/
+
+@keyframes play-fw {
+  from {
+    background-position: 0; }
+  to {
+    background-position: 100%; } }
+
+@keyframes play-bw {
+  from {
+    background-position: 100%; }
+  to {
+    background-position: 0; } }
+
+/**********************************
 HEADER
 ***********************************/
-header {
-  float: left;
-  margin: 0 0 20px 0;
-  padding: 30px 0 0 0;
-  width: 100%; }
-
-.title {
-  text-align: center;
+#siteheader {
+  width: 100%;
+  background-color: #fff;
   margin: 0;
-  font-size: 2em;
-  font-family: 'NeutraText', sans-serif;
-  font-style: normal; }
-  .title h1 {
-    font-weight: bold;
-    font-style: italic;
-    font-size: .7em;
-    margin: 0 0 0 0; }
-  .title span.logo {
-    display: block; }
-  .title span.text-logo {
-    display: none; }
-  .title span.tag {
-    display: block;
-    font-size: .6em;
-    margin: 15px 0 0 0;
-    padding: 0 0 0 0; }
-  .title span.logo img {
-    width: 120px;
-    text-align: center;
-    font-family: NeutraText;
-    font-weight: bold;
-    font-style: italic; }
+  padding: 0;
+  height: 14vw; }
 
+/*
+header #sitehead:after {
+  clear:both;
+  content:" ";
+  display:table;
+}
+
+header #sitehead:before {
+  content:" ";
+  display:table;
+}
+*/
 /**********************************
 NAVIGATION
 ***********************************/
-nav {
-  text-align: center;
-  padding: 10px 0;
-  margin: 0px 0 20px; }
-  nav ul.jqw {
-    list-style: none;
-    margin: 0 0;
-    padding: 0;
-    font-size: 1em; }
-  nav li {
-    display: inline-block; }
-  nav a {
-    padding: 15px 10px;
-    text-decoration: none; }
-    nav a:link, nav a:visited {
-      color: #000000; }
-    nav a:hover {
-      color: #666666; }
-    nav a:active {
-      color: #000000; }
-    nav a.active {
-      font-weight: bold;
-      text-decoration: underline; }
-
-/******************
-GALLERIES
-******************/
-ul.gallery {
-  margin: 0;
-  padding: 0;
-  list-style: none; }
-  ul.gallery li {
+#topnav {
+  display: block; }
+  #topnav h2 {
+    color: #000;
+    font-size: 8vw;
+    line-height: 1em;
+    font-weight: bold;
+    font-style: italic;
+    margin: 0;
+    padding: 0; }
+  #topnav .dropnav {
+    position: relative;
+    width: 14.3vw;
+    height: 13vw;
+    display: block;
     float: left;
-    width: 45%;
-    margin: 2.5%;
-    color: black; }
-    ul.gallery li a p {
+    cursor: pointer; }
+    #topnav .dropnav .dropnavIcon {
+      display: inline;
+      width: 5.5vw;
+      height: 5.5vw;
+      position: absolute;
+      text-align: center;
+      background-size: auto 100%;
+      background-image: url(/images/burger_blk.png);
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto; }
+  #topnav .dropnavOpen {
+    position: relative;
+    width: 14.3vw;
+    height: 13vw;
+    display: block;
+    float: left;
+    cursor: pointer; }
+    #topnav .dropnavOpen .dropnavIcon {
+      display: inline;
+      width: 5.5vw;
+      height: 5.5vw;
+      position: absolute;
+      text-align: center;
+      background-size: auto 100%;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+      animation: play-fw 0.25s steps(7) forwards;
+      background-image: url(/images/burger_blk.png); }
+  #topnav .dropnavClosed {
+    position: relative;
+    width: 14.3vw;
+    height: 13vw;
+    display: block;
+    float: left;
+    cursor: pointer; }
+    #topnav .dropnavClosed .dropnavIcon {
+      display: inline;
+      width: 5.5vw;
+      height: 5.5vw;
+      position: absolute;
+      text-align: center;
+      background-size: auto 100%;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+      animation: play-bw 0.25s steps(7) forwards;
+      background-image: url(/images/burger_blk.png); }
+  #topnav .dropnavMenu {
+    display: none;
+    position: fixed;
+    width: 100%;
+    top: 14vw;
+    height: 100%;
+    background: #000;
+    font-size: 8vw;
+    z-index: 100; }
+    #topnav .dropnavMenu ul {
       margin: 0;
-      padding: 5%;
-      font-size: 0.9em; }
+      padding: 3vw 5.2vw 0 5.2vw;
+      list-style-type: none;
+      list-style-image: none;
+      color: #fff; }
+    #topnav .dropnavMenu li {
+      font-size: 6vw;
+      display: block;
+      padding: 5vw 0;
+      border-bottom: #fff 2px solid; }
+    #topnav .dropnavMenu ul li a {
+      text-decoration: none;
+      margin: 0px;
+      color: #fff; }
+      #topnav .dropnavMenu ul li a:hover {
+        color: #fff;
+        text-decoration: none; }
+    #topnav .dropnavMenu a {
+      text-decoration: none;
+      color: white; }
+      #topnav .dropnavMenu a:hover {
+        text-decoration: none;
+        color: white; }
+  #topnav .headerLogo {
+    display: none; }
+  #topnav .menu1-1 {
+    padding: 2.7vw 0 0 4vw;
+    float: left;
+    display: block; }
+  #topnav .menu1-2 {
+    display: none; }
+  #topnav .menu1-3 {
+    display: none; }
 
 /******************
-CONTENT WORK
+MAIN CONTENT
 ******************/
-.content-work {
-  clear: left;
-  text-align: center;
-  margin: 0 5% 0 5%; }
+#mainColumn {
+  margin: 0 auto;
+  padding: 0 2.5%;
+  width: auto; }
+  #mainColumn .previewItem {
+    width: 100%;
+    display: block;
+    float: left;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    border: 40px solid;
+    border-color: transparent;
+    vertical-align: baseline; }
+  #mainColumn .previewItem span {
+    vertical-align: baseline;
+    float: left;
+    bottom: 0px;
+    font-size: 1em; }
+
+.smallBorder {
+  border-color: #8d8d8d;
+  border-style: solid;
+  border-width: 1px; }
 
 /******************
-CONTACT
+ABOUT
 ******************/
-ul.contact {
-  margin: 0 5%;
-  padding: 0;
-  list-style: none;
-  line-height: 1.5; }
-  ul.contact li a {
+#contactColumn {
+  margin: 40px auto 0 auto;
+  padding: 0 2.5%;
+  width: auto; }
+  #contactColumn .contactItem {
+    width: 95%;
+    display: block;
+    float: left;
+    position: relative;
+    margin: 0;
+    padding: 0 2.5%;
+    clear: left; }
+    #contactColumn .contactItem p {
+      margin: 0;
+      padding: 0;
+      line-height: 1.4em; }
+    #contactColumn .contactItem span.blocky {
+      display: block;
+      margin: 15px 0 0 0; }
+    #contactColumn .contactItem span.bold {
+      font-weight: bold; }
+  #contactColumn a {
     text-decoration: none;
     border-bottom: 1px dotted; }
-  ul.contact li.primary {
+  #contactColumn .primary {
     display: block;
-    width: 100%;
     float: left; }
-  ul.contact li.secondary {
+  #contactColumn .secondary {
     clear: left;
-    display: block;
     width: 100%;
     float: left;
-    margin: 15px 0 0 0; }
+    margin: 15px 0 0 0;
+    clear: left; }
 
 /******************
 FOOTER
@@ -198,121 +298,161 @@ RESPONSIVE
 ******************
 ******************/
 /******************
-min-width 480
+min-width 640px
 ******************/
-@media screen and (min-width: 480px) {
-  .title h1 {
-    font-weight: bold;
-    font-style: italic;
-    display: inline-block; }
-  .title span {
-    display: block;
-    margin: 15px 0 0 0;
-    padding: 0 0 0 0px; }
-  ul.contact {
+@media screen and (min-width: 640px) {
+  /**********************************
+GENERAL
+***********************************/
+  /**********************************
+HEADER
+***********************************/
+  #siteheader {
     margin: 0;
     padding: 0;
-    list-style: none; }
-    ul.contact li.primary {
-      display: block;
-      width: 50%;
-      float: left;
-      margin-left: 2.5%;
-      margin-right: 0; }
-    ul.contact li.secondary {
-      clear: none;
-      display: block;
-      width: 40%;
-      float: right;
-      margin-top: 0%; }
-  ul.gallery li {
-    width: 28.3333%;
-    margin: 2.5%;
-    color: black;
-    text-align: center; }
-  .content-work {
-    clear: left;
-    margin: 0 5% 0 5%; } }
-
-/*
-
-  #gallery li:nth-child(4n) {
-    clear: left;
-  }
-*/
-/******************
-min-width 880
-******************/
-@media screen and (min-width: 880px) {
-  header {
-    margin: 0 0 0 0;
-    padding: 40px 0 20px 0; }
-  nav {
-    background: none;
-    float: left;
-    margin: 0 0 0 5%;
-    text-align: left; }
-  #wrapper {
-    clear: left;
-    max-width: none;
-    float: left;
-    margin: 0 0 0 5%;
-    text-align: left;
-    padding: 10px 0;
+    height: 60px;
+    background-color: transparent; }
+  /**********************************
+NAVIGATION
+***********************************/
+  #topnav {
+    positive: relative;
     display: block; }
-  .contact {
-    font-size: 1.1em;
-    line-height: 1.6em; }
-  .title {
-    float: left;
-    margin-left: 5%;
-    text-align: left;
-    padding: 0 0 0 10px;
-    font-style: normal; }
-    .title h1 {
-      font-weight: bold;
-      font-style: italic;
-      font-size: 1.8em;
-      margin: 0 0 0 0; }
-    .title span.text-logo {
-      display: block;
+    #topnav .dropnav {
+      display: none;
+      position: relative;
+      width: 14.3vw;
+      height: 13vw;
       float: left; }
-    .title span.logo {
+    #topnav .dropnavOpen {
+      display: none; }
+    #topnav .dropnavClosed {
+      display: none; }
+    #topnav .headerLogo {
+      display: inline;
+      position: relative;
+      width: 80px;
+      height: 60px;
+      margin: 20px 0 0 25px;
+      float: left;
+      text-align: center;
+      background-size: auto 100%;
+      background-image: url(/images/app-logo.svg); }
+    #topnav h2 {
+      font-size: 2em;
+      color: #000; }
+    #topnav .menu1-1 {
+      display: none; }
+    #topnav .menu1-2 {
       display: block;
-      position: absolute;
-      top: 35px;
-      right: 5%; }
-    .title span.tag {
-      display: block;
-      clear: both;
-      padding: 15px 0 0 0; }
-  ul.gallery li {
-    width: 20%; }
-    ul.gallery li.first {
-      clear: left; }
-  ul.contact li.primary {
-    margin-top: 10px;
-    margin-left: 10px; }
-  ul.contact li.secondary {
-    margin-top: 10px; }
-  .content-work {
-    clear: left;
-    text-align: left;
-    margin: 0 0 0 7%;
-    padding: 15px 0 0 0;
-    font-size: 1.1em; }
-  footer {
-    font-size: 1em;
-    text-align: left;
-    clear: both;
+      padding: 30px 0 0 30px;
+      float: left;
+      display: block; }
+    #topnav .menu1-3 {
+      display: none;
+      padding: 2.7vw 0 0 8vw;
+      float: left; }
+  /******************
+MAIN CONTENT
+******************/
+  #mainColumn {
     float: left;
-    margin: 0 0 0 5%;
-    padding: 30px 0 30px 0;
-    color: #000; }
-    footer a {
-      margin-left: 10px; } }
+    width: 96%;
+    margin-left: 2%;
+    padding: 0;
+    /*
+    :nth-child(4n) {
+      clear: left;
+    }
+    */ }
+    #mainColumn .previewItem {
+      width: 33.333%;
+      display: block;
+      float: left;
+      position: relative;
+      margin: 0;
+      padding: 0;
+      -webkit-box-sizing: border-box;
+      border: 40px solid;
+      border-color: transparent;
+      vertical-align: baseline;
+      text-align: center; }
+    #mainColumn .previewItem span {
+      font-size: .9em;
+      float: left;
+      bottom: 0px;
+      width: 100%; }
+  /******************
+ABOUT
+******************/
+  #contactColumn {
+    width: 96%;
+    margin-left: 2%;
+    padding: 0; }
+    #contactColumn .contactItem {
+      display: block;
+      float: left;
+      position: relative;
+      margin: 0;
+      padding: 0 2.5%;
+      width: 45%;
+      clear: none; }
+    #contactColumn p {
+      margin: 0;
+      padding: 0;
+      line-height: 1.4em; }
+    #contactColumn span.blocky {
+      display: block;
+      margin: 15px 0 0 0; }
+    #contactColumn span.noTop {
+      display: block;
+      margin-top: 0; }
+    #contactColumn span.bold {
+      font-weight: bold; }
+    #contactColumn a {
+      text-decoration: none;
+      border-bottom: 1px dotted; } }
 
-/*# sourceMappingURL=app.css.map */
-/*# sourceMappingURL=app.css.map */
+/******************
+FOOTER
+******************/
+/******************
+min-width 920px
+******************/
+@media screen and (min-width: 920px) {
+  /**********************************
+GENERAL
+***********************************/
+  /**********************************
+HEADER
+***********************************/
+  /**********************************
+NAVIGATION
+***********************************/
+  /******************
+MAIN CONTENT
+******************/
+  #mainColumn {
+    /*
+    :nth-child(4n) {
+      clear: left;
+    }
+*/ }
+    #mainColumn .previewItem {
+      width: 25%;
+      display: block; }
+    #mainColumn .previewItem span {
+      font-size: .9em;
+      float: left;
+      bottom: 0px;
+      width: 100%; }
+  /******************
+CONTACT
+******************/
+  /******************
+FOOTER
+******************/ }
+
+/* sourceMappingURL=app.css.map */
 
 /*# sourceMappingURL=app.css.map */
