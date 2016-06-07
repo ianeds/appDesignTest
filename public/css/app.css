@@ -75,139 +75,161 @@ HEADER
 #siteheader {
   width: 100%;
   background-color: #fff;
-  margin: 0;
-  padding: 0;
-  height: 14vw; }
-
-/*
-header #sitehead:after {
-  clear:both;
-  content:" ";
-  display:table;
-}
-
-header #sitehead:before {
-  content:" ";
-  display:table;
-}
-*/
-/**********************************
+  margin-right: auto;
+  margin-left: auto;
+  /**********************************
 NAVIGATION
-***********************************/
-#topnav {
-  display: block; }
-  #topnav h2 {
-    color: #000;
-    font-size: 8vw;
-    line-height: 1em;
-    font-weight: bold;
-    font-style: italic;
-    margin: 0;
-    padding: 0; }
-  #topnav .dropnav {
+***********************************/ }
+  #siteheader .topRow-4 {
     position: relative;
-    width: 14.3vw;
-    height: 13vw;
-    display: block;
+    min-height: 1px;
+    padding: 5px 15px 0 15px; }
+  #siteheader .dropnav {
+    position: absolute;
+    top: 10px;
+    left: 15px;
     float: left;
+    width: 28px;
+    height: 28px;
+    padding: 10px;
     cursor: pointer; }
-    #topnav .dropnav .dropnavIcon {
+    #siteheader .dropnav .dropnavIcon {
       display: inline;
-      width: 5.5vw;
-      height: 5.5vw;
+      width: 28px;
+      height: 28px;
       position: absolute;
       text-align: center;
       background-size: auto 100%;
+      margin: auto;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      background-image: url(/images/burger_blk.png); }
+  #siteheader .dropnavOpen {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    float: left;
+    width: 28px;
+    height: 28px;
+    padding: 10px;
+    cursor: pointer; }
+    #siteheader .dropnavOpen .dropnavIcon {
+      display: inline;
+      width: 28px;
+      height: 28px;
+      position: absolute;
+      text-align: center;
+      background-size: auto 100%;
+      margin: auto;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
       background-image: url(/images/burger_blk.png);
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      margin: auto; }
-  #topnav .dropnavOpen {
-    position: relative;
-    width: 14.3vw;
-    height: 13vw;
-    display: block;
+      animation: play-fw 0.25s steps(7) forwards; }
+  #siteheader .dropnavClosed {
+    position: absolute;
+    top: 10px;
+    left: 15px;
     float: left;
+    width: 28px;
+    height: 28px;
+    padding: 10px;
     cursor: pointer; }
-    #topnav .dropnavOpen .dropnavIcon {
+    #siteheader .dropnavClosed .dropnavIcon {
       display: inline;
-      width: 5.5vw;
-      height: 5.5vw;
+      width: 28px;
+      height: 28px;
       position: absolute;
       text-align: center;
       background-size: auto 100%;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
       margin: auto;
-      animation: play-fw 0.25s steps(7) forwards;
-      background-image: url(/images/burger_blk.png); }
-  #topnav .dropnavClosed {
-    position: relative;
-    width: 14.3vw;
-    height: 13vw;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      background-image: url(/images/burger_blk.png);
+      animation: play-bw 0.25s steps(7) forwards; }
+  #siteheader .headerLogo {
     display: block;
-    float: left;
-    cursor: pointer; }
-    #topnav .dropnavClosed .dropnavIcon {
-      display: inline;
-      width: 5.5vw;
-      height: 5.5vw;
-      position: absolute;
-      text-align: center;
-      background-size: auto 100%;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      margin: auto;
-      animation: play-bw 0.25s steps(7) forwards;
-      background-image: url(/images/burger_blk.png); }
-  #topnav .dropnavMenu {
+    margin: 0 auto;
+    display: table; }
+    #siteheader .headerLogo #logo {
+      box-sizing: border-box;
+      margin: 0 auto; }
+      #siteheader .headerLogo #logo a {
+        margin: 0 auto;
+        display: block; }
+      #siteheader .headerLogo #logo h2 {
+        font-size: 1.8em;
+        line-height: .6em;
+        padding: 19px 0 0 0;
+        -webkit-margin-before: 0em;
+        -webkit-margin-after: 0em;
+        -webkit-margin-start: 0;
+        -webkit-margin-end: 0;
+        font-weight: bold; }
+  #siteheader .menu1-1 {
     display: none;
-    position: fixed;
-    width: 100%;
-    top: 14vw;
-    height: 100%;
-    background: #000;
-    font-size: 8vw;
-    z-index: 100; }
-    #topnav .dropnavMenu ul {
-      margin: 0;
-      padding: 3vw 5.2vw 0 5.2vw;
-      list-style-type: none;
-      list-style-image: none;
-      color: #fff; }
-    #topnav .dropnavMenu li {
-      font-size: 6vw;
-      display: block;
-      padding: 5vw 0;
-      border-bottom: #fff 2px solid; }
-    #topnav .dropnavMenu ul li a {
-      text-decoration: none;
-      margin: 0px;
-      color: #fff; }
-      #topnav .dropnavMenu ul li a:hover {
+    padding: 30px 0 0 30px;
+    float: left; }
+  #siteheader .menu1-2 {
+    display: none;
+    padding: 30px 0 0 60px;
+    float: left; }
+  #siteheader .topRow-8 {
+    position: relative;
+    min-height: 1px;
+    padding: 0 15px; }
+    #siteheader .topRow-8 #dropnavMenu {
+      display: none;
+      box-sizing: border-box;
+      margin: 20px auto 0 auto; }
+      #siteheader .topRow-8 #dropnavMenu ul {
+        display: block;
+        width: 100%;
+        padding: 1em 0 0 0;
+        text-align: center;
+        position: relative;
+        list-style-type: none;
         color: #fff;
-        text-decoration: none; }
-    #topnav .dropnavMenu a {
-      text-decoration: none;
-      color: white; }
-      #topnav .dropnavMenu a:hover {
-        text-decoration: none;
-        color: white; }
-  #topnav .headerLogo {
+        -webkit-margin-before: 0;
+        -webkit-padding-start: 0;
+        -webkit-margin-after: 0; }
+        #siteheader .topRow-8 #dropnavMenu ul li.mobile {
+          padding: 0;
+          width: 100%;
+          display: block;
+          font-size: 1.3em;
+          font-weight: bold;
+          margin: .5em auto 0 auto;
+          color: #000;
+          text-align: center;
+          border: 0; }
+        #siteheader .topRow-8 #dropnavMenu ul li::after {
+          content: "";
+          display: block;
+          width: 100px;
+          margin: .3em auto 0 auto;
+          text-align: center;
+          height: 1px;
+          background: #fff;
+          border-bottom: 2px solid #000; }
+        #siteheader .topRow-8 #dropnavMenu ul a {
+          text-decoration: none;
+          color: #000; }
+          #siteheader .topRow-8 #dropnavMenu ul a:hover {
+            color: #767676;
+            text-decoration: none; }
+  #siteheader .menu1-1 {
+    display: none;
+    padding: 15px 0 0 15px;
+    float: left; }
+  #siteheader .menu1-2 {
     display: none; }
-  #topnav .menu1-1 {
-    padding: 2.7vw 0 0 4vw;
-    float: left;
-    display: block; }
-  #topnav .menu1-2 {
-    display: none; }
-  #topnav .menu1-3 {
+  #siteheader .menu1-3 {
     display: none; }
 
 /******************
@@ -215,7 +237,7 @@ MAIN CONTENT
 ******************/
 #mainColumn {
   margin: 0 auto;
-  padding: 0 2.5%;
+  padding: 1.5em 2.5% 0 2.5%;
   width: auto; }
   #mainColumn .previewItem {
     width: 100%;
@@ -223,11 +245,11 @@ MAIN CONTENT
     float: left;
     position: relative;
     margin: 0;
-    padding: 0;
+    padding: 30px;
     -webkit-box-sizing: border-box;
-    border: 40px solid;
-    border-color: transparent;
     vertical-align: baseline; }
+  #mainColumn .first {
+    padding-top: 0px; }
   #mainColumn .previewItem span {
     vertical-align: baseline;
     float: left;
@@ -243,8 +265,8 @@ MAIN CONTENT
 ABOUT
 ******************/
 #contactColumn {
-  margin: 40px auto 0 auto;
-  padding: 0 2.5%;
+  margin: 30px auto 0 auto;
+  padding: 40px 0 0 2.5%;
   width: auto; }
   #contactColumn .contactItem {
     width: 95%;
@@ -338,20 +360,6 @@ NAVIGATION
       text-align: center;
       background-size: auto 100%;
       background-image: url(/images/app-logo.svg); }
-    #topnav h2 {
-      font-size: 2em;
-      color: #000; }
-    #topnav .menu1-1 {
-      display: none; }
-    #topnav .menu1-2 {
-      display: block;
-      padding: 30px 0 0 30px;
-      float: left;
-      display: block; }
-    #topnav .menu1-3 {
-      display: none;
-      padding: 2.7vw 0 0 8vw;
-      float: left; }
   /******************
 MAIN CONTENT
 ******************/

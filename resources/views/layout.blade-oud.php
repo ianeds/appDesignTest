@@ -12,30 +12,29 @@
     </head>
 <body>
 <?php include_once("analyticstracking.php") ?>
-<header id="siteheader" class="">
-    <div class="topRow-4"> 
-    
-        <div class="dropnav" id="dropnav">
+    <header id="siteheader" class="dark">
+        <nav id="topnav" style="">
+            <div class="dropnav" id="dropnav">
                 <div class="dropnavIcon" id="dropnavIcon"></div> 
                 </div>
-            <div class="headerLogo">
-            <div id="logo">
-                <h2 id=""><a id="" href="/">apparent</a></h2></div></div>
-                
-            <div class="menu1-1"><a id="menu1-1-A" href="/">
-                <h2 id="menu1-1-text">about</h2></a></div>
-
-            <div class="menu1-2"><a id="menu1-2-A" href="/">
-                <h2 id="menu1-2-text">work</h2></a></div>
-        </div>
-    <div class="topRow-8"> 
-        <div class="" id="dropnavMenu">
+                <div class="dropnavMenu" id="dropnavMenu">
                   <ul>
-                    <li class="mobile"><a href="/about">about</a></li>
-                    <li class="mobile"><a href="/">work</a></li>
+                    <li><a href="/about">about</a></li>
+                    <li><a href="/">work</a></li>
                   </ul> 
-        </div>
-</header>
+                </div>
+            <div class="headerLogo"><img href="/images/app-logo.svg"></div>
+            
+            <div class="menu1-1"><a id="menu1-1-A" href="/">
+                <h2 id="menu1-1-text">apparent</h2></a></div>
+                
+            <div class="menu1-2"><a id="menu1-2-A" href="/">
+                <h2 id="menu1-2-text">about</h2></a></div>
+
+            <div class="menu1-3"><a id="menu1-3-A" href="/">
+                <h2 id="menu1-3-text">work</h2></a></div>
+        </nav>
+    </header>
 
 @yield('main')
 
