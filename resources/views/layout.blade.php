@@ -13,20 +13,16 @@
 <body>
 <?php include_once("analyticstracking.php") ?>
 <header id="siteheader" class="">
-    <div class="topRow-4"> 
     
+    <div class="topRow-4"> 
         <div class="dropnav" id="dropnav">
                 <div class="dropnavIcon" id="dropnavIcon"></div> 
                 </div>
+            
             <div class="headerLogo">
             <div id="logo">
                 <h2 id=""><a id="" href="/">apparent</a></h2></div></div>
                 
-            <div class="menu1-1"><a id="menu1-1-A" href="/">
-                <h2 id="menu1-1-text">about</h2></a></div>
-
-            <div class="menu1-2"><a id="menu1-2-A" href="/">
-                <h2 id="menu1-2-text">work</h2></a></div>
         </div>
     <div class="topRow-8"> 
         <div class="" id="dropnavMenu">

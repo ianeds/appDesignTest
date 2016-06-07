@@ -1,7 +1,8 @@
 /**********************************
 GENERAL
 ***********************************/
-@font-face {
+@font-face 
+{
   font-family: 'NeutraText';
   src: url("/shared/NeutraText-DemiItalic.woff") format("woff2"), url("/shared/NeutraText-DemiItalic.woff") format("woff");
   font-weight: bold;
@@ -9,7 +10,8 @@ GENERAL
 }
 
 
-@font-face {
+@font-face 
+{
   font-family: 'NeutraText';
   src: url("/shared/NeutraText-Book.woff") format("woff2"), url("/shared/NeutraText-Book.woff") format("woff");
   font-weight: normal;
@@ -17,7 +19,8 @@ GENERAL
 }
 
 
-@font-face {
+@font-face 
+{
   font-family: 'NeutraText';
   src: url("/shared/NeutraText-Demi.woff") format("woff2"), url("/shared/NeutraText-Demi.woff") format("woff");
   font-weight: bold;
@@ -25,7 +28,8 @@ GENERAL
 }
 
 
-body {
+body 
+{
   font-family: NeutraText;
   font-style: normal;
   font-size: 1em;
@@ -34,31 +38,38 @@ body {
   color: #000;
 }
 
-#wrapper {
+#wrapper 
+{
   max-width: 940px;
   margin: 0 auto;
   padding: 0 5%;
 }
 
-img {
+img 
+{
   max-width: 100%;
 }
 
-a {
+a 
+{
   text-decoration: none;
   color: #000;
-  &:link, &:visited {
+  &:link, &:visited 
+  {
     color: #000;
   }
-  &:hover {
+  &:hover 
+  {
     color: #000;
   }
-  &:active {
+  &:active 
+  {
     color: #000;
   }
 }
 
-.back-button {
+.back-button 
+{
   text-align: left;
   font-size: 12px;
   padding: 0px 0px 0px 0px;
@@ -68,7 +79,8 @@ a {
 MIX-INs
 ***********************************/
 
-@mixin text-decoration-style($value) {
+@mixin text-decoration-style($value)
+{
   @include prefixer(text-decoration-style, $value, moz webkit);
 }
 
@@ -169,20 +181,23 @@ ANIMATIONS
 HEADER
 ***********************************/
 
-#siteheader {
+#siteheader 
+{
   width: 100%;
   background-color: #fff;
   margin-right: auto;
   margin-left: auto;
   //transition: color .2s,background-color .2s;
 
-.topRow-4 {
+  .topRow-4 
+  {
   position: relative;
   min-height: 1px;
   padding: 5px 15px 0 15px;
   }
 
-.dropnav  {
+  .dropnav  
+  {
   position: absolute;
   top: 10px;
   left: 15px;
@@ -192,7 +207,8 @@ HEADER
   padding: 10px;
   cursor: pointer;
 
-    .dropnavIcon {
+    .dropnavIcon 
+    {
       display: inline;
       width: 28px;
       height: 28px;
@@ -208,7 +224,8 @@ HEADER
     }
   }
 
-  .dropnavOpen  {
+  .dropnavOpen  
+  {
   position: absolute;
   top: 10px;
   left: 15px;
@@ -218,9 +235,9 @@ HEADER
   padding: 10px;
   cursor: pointer;
 
-
-    .dropnavIcon {
-       display: inline;
+    .dropnavIcon 
+    {
+      display: inline;
       width: 28px;
       height: 28px;
       position: absolute;
@@ -237,11 +254,11 @@ HEADER
       -ms-animation:play-fw .25s steps(7) forwards;
       -o-animation:play-fw .25s steps(7) forwards;
       animation:play-fw .25s steps(7) forwards;
-
     }
   }
 
-  .dropnavClosed {
+  .dropnavClosed 
+  {
   position: absolute;
   top: 10px;
   left: 15px;
@@ -251,7 +268,8 @@ HEADER
   padding: 10px;
   cursor: pointer;
 
-    .dropnavIcon {
+    .dropnavIcon 
+    {
       display: inline;
       width: 28px;
       height: 28px;
@@ -269,73 +287,70 @@ HEADER
       -ms-animation:play-bw .25s steps(7) forwards;
       -o-animation:play-bw .25s steps(7) forwards;
       animation:play-bw .25s steps(7) forwards;
-
+    }
   }
-}
+
 
   .headerLogo 
   {
-      display:block;
-      margin: 0 auto;
-      display:table;
+    display:block;
+    margin: 0 auto;
+    display:table;
 
-      #logo 
-      {
+    #logo 
+    {
       box-sizing: border-box;
       margin: 0 auto;
       //display: block;
 
-
-
-       a{
+      a
+      {
         margin: 0 auto;
         display: block;
+      }
 
-       }
-        h2 
-        {
-       
-          font-size: 1.8em;
-          line-height: .6em;
-          padding: 19px 0 0 0;
-          -webkit-margin-before:0em;
-          -webkit-margin-after:0em;
-          -webkit-margin-start: 0;
-          -webkit-margin-end: 0;
-          font-weight: bold;
-          
+      h2 
+      {       
+        font-size: 1.8em;
+        line-height: .6em;
+        padding: 19px 0 0 0;
+        -webkit-margin-before:0em;
+        -webkit-margin-after:0em;
+        -webkit-margin-start: 0;
+        -webkit-margin-end: 0;
+        font-weight: bold;
 
-        }
-      } 
+      }
+    } 
   }
   
-  .menu1-1 {
+  .menu1-1 
+  {
     display:none;
     padding: 30px 0 0 30px;
     float:left;
   }
 
-   .menu1-2 {
+   .menu1-2 
+  {
     display:none;
     padding: 30px 0 0 60px;
     float:left;
   }
 
-.topRow-8
-{
+  .topRow-8
+  {
   position:relative;
   min-height: 1px;
   padding: 0 15px;
 
-  #dropnavMenu 
-  {
-   
+    #dropnavMenu 
+    {
     display:none;
     box-sizing: border-box;
     //margin: 0 auto;
-    margin: 20px auto 0 auto;
+    margin: 10px auto 0 auto;
      //z-index:1;
-
 
       ul 
       {
@@ -365,7 +380,6 @@ HEADER
           border:0;
           &:hover 
           {
-
           }
         }
 
@@ -383,78 +397,61 @@ HEADER
 
         a 
         {
-          text-decoration: none;
-          color: #000;
+        text-decoration: none;
+        color: #000;
+          
           &:hover 
           {
-            color: #767676;
-            text-decoration: none;
+          color: #767676;
+          text-decoration: none;
           }
-        }
-      
+        }  
       }
+    }
   }
-}
-
-
-/**********************************
-NAVIGATION
-***********************************/
-
-    .menu1-1 {
-      display:none;
-      padding: 15px 0 0 15px;
-      float:left;
-      
-  }
-
-   .menu1-2 {
-      display:none;
-  }
-
-    .menu1-3 {
-      display:none;
-  }
-
 }
 
 /******************
 MAIN CONTENT
 ******************/
 
-#mainColumn {
-    margin: 0 auto;
-    padding: 1.5em 2.5% 0 2.5%;
-    width: auto;
+#mainColumn 
+{
+  margin: 0 auto;
+  padding: 1.5em 2.5% 0 2.5%;
+  width: auto;
 
- 
-  .previewItem {
-    width: 100%;
-    display: block;
-    float:left;
-    position:relative;
-    margin: 0;
-    padding: 30px;
-    -webkit-box-sizing: border-box;
-    vertical-align: baseline;
+  .previewItem 
+  {
+  width: 100%;
+  display: block;
+  float:left;
+  position:relative;
+  margin: 0;
+  padding: 30px;
+  -webkit-box-sizing: border-box;
+  vertical-align: baseline;
   }
- .first 
+
+  .first 
   {
   padding-top: 0px;
   }
-  .previewItem span {
-    vertical-align: baseline;
-    float: left;
-    bottom: 0px;
-    font-size: 1em;
+  
+  .previewItem span 
+  {
+  vertical-align: baseline;
+  float: left;
+  bottom: 0px;
+  font-size: 1em;
   }
 
-}
-
-.smallBorder {
+.smallBorder 
+  {
   border-color: #8d8d8d;
   border-style: solid;
   border-width: 1px;
+  }
 }
 
 
@@ -462,12 +459,14 @@ MAIN CONTENT
 ABOUT
 ******************/
 
-#contactColumn {
+#contactColumn 
+{
     margin: 30px auto 0 auto;
     padding: 40px 0 0 2.5%;
     width: auto;
 
-  .contactItem {
+  .contactItem 
+  {
     width: 95%;
     display: block;
     float:left;
@@ -476,42 +475,45 @@ ABOUT
     padding: 0 2.5%;
     clear:left;
 
-    p {
-    margin: 0;
-    padding:0;
-    line-height: 1.4em;
+    p 
+    {
+      margin: 0;
+      padding:0;
+      line-height: 1.4em;
     }
 
-    span.blocky {
+    span.blocky 
+    {
       display: block;
       margin: 15px 0 0 0;
     }
 
-    span.bold {
-      font-weight: bold;
-    }
-    
+    span.bold 
+    {
+    font-weight: bold;
+    }   
   }
 
-  a {
-      text-decoration: none;
-      border-bottom: 1px dotted;
-    }
+  a 
+  {
+    text-decoration: none;
+    border-bottom: 1px dotted;
+  }
 
-  .primary {
-      display: block;
-      float: left;
+  .primary 
+  {
+  display: block;
+  float: left;
+  }
 
-    }
-
-  .secondary {
-      clear: left;
-      width: 100%;
-      float: left;
-      margin: 15px 0 0 0;
-      clear:left;
-    }
-    
+  .secondary 
+  {
+  clear: left;
+  width: 100%;
+  float: left;
+  margin: 15px 0 0 0;
+  clear:left;
+  }
 }
 
 
@@ -519,18 +521,23 @@ ABOUT
 FOOTER
 ******************/
 
-footer {
+footer 
+{
   font-size: 1em;
   text-align: center;
   clear: both;
   padding: 30px 0 30px 0;
   color: #000;
-  a {
+  a 
+  {
     font-weight: bold;
     text-decoration: none;
     padding: 15px 10px;
   }
-}
+
+} 
+
+//end of first main styles
 
 /******************
 ******************
@@ -543,90 +550,174 @@ RESPONSIVE
 /******************
 min-width 640px
 ******************/
-@media screen and (min-width: 640px) {
-
-/**********************************
-GENERAL
-***********************************/
-
+@media screen and (min-width: 840px) 
+{
 
 /**********************************
 HEADER
 ***********************************/
 
-#siteheader {
-  margin: 0;
-  padding: 0;
-  height: 60px;
-  background-color: transparent;
- }
+  #siteheader 
+  {
+  width: 100%;
+  background-color: #fff;
+  margin-right: auto;
+  margin-left: auto;
 
 
-/**********************************
-NAVIGATION
-***********************************/
-#topnav {
-    positive:relative;
-    display:block;
-
-  a {
-
-  }
-
-  .dropnav .dropnavIcon {
-  }
-
-  .dropnav {
-    display: none;
+    .topRow-4 
+    {
     position: relative;
-    width: 14.3vw;
-    height: 13vw;
-    float:left;
-  }
-
-  .dropnavOpen {
-    display:none;
-  }
-
-   .dropnavClosed {
-    display:none;
-  }
-
-
-  .headerLogo {
-    display:inline;
-    position: relative;
-    width: 80px;
-    height: 60px;
-    margin: 20px 0 0 25px;
-    float:left;
-    text-align: center;
-    background-size: auto 100%;
-    background-image: url(/images/app-logo.svg);
+    width: 33.33333333333333%;
+    min-height: 1px;
+    padding: 5px 15px 0 15px;
     }
 
+    .dropnav
+    {
+    display: none;
+    }
+
+    .dropnavOpen  
+    {
+    display: none;
+    }
+
+    .dropnavClosed 
+    {
+    display: none;
+    }
+    
+    .headerLogo 
+    {
+    display:block;
+    float:left;
+    margin: 0 auto;
+    position:absolute;
+    top: 10px;
+    left: 15px;
+
+      #logo 
+      {
+        box-sizing: border-box;
+        margin: 0 auto;
+        //display: block;
+
+        a
+        {
+          margin: 0 auto;
+          display: block;
+        }
+
+        h2 
+        {       
+          font-size: 1.8em;
+          line-height: .6em;
+          padding: 19px 0 0 0;
+          -webkit-margin-before:0em;
+          -webkit-margin-after:0em;
+          -webkit-margin-start: 0;
+          -webkit-margin-end: 0;
+          font-weight: bold;
+
+        }
+      } 
+    }
+    
+    .topRow-8
+    {
+    position:relative;
+    min-height: 1px;
+    float:left;
+    padding: 0 15px;
+    width: 66.66666666666666%;
+  
+      #dropnavMenu 
+      {
+      display:block;
+      box-sizing: border-box;
+      //margin: 0 auto;
+      margin: 2em 0 0 0;
+      //z-index:1;
+
+        ul 
+        {
+            display: block;
+            float:right;
+            margin: .3em 0 0 0;
+            //overflow: hidden;
+            padding: 1em 0 0 0;
+            text-align: center;
+            list-style-type: none;
+            color: #fff;
+            -webkit-margin-before: 0;
+            -webkit-padding-start: 0;
+            -webkit-margin-after: 0;
+
+          li.mobile
+          {
+              padding: 0;
+              width: 100%;
+              display: block;
+              font-size: 1.25em;
+              font-weight: bold;
+              margin: .5em auto 0 auto;
+              color: #000;
+              text-align: center;
+              //transition: all .3s ease-in-out;
+              border:0;
+            &:hover 
+            {
+            }
+          }
+        }
+            /*li::after 
+            {
+            content: "";
+            display:block;
+            width: 100px;
+            margin: .3em auto 0 auto;
+            text-align: center;
+            height:1px;
+            background:#fff;
+            border-bottom:2px solid #000;
+            }
+            */
+
+        a 
+        {
+            text-decoration: none;
+            color: #000;
+              
+          &:hover 
+          {
+              color: #767676;
+              text-decoration: none;
+          }
+        }  
+      }
+    }
+  }
+
+  
   
 
- }
+
 
 
 /******************
 MAIN CONTENT
 ******************/
-  
-  #mainColumn {
+
+#mainColumn 
+  {
     float: left;
     width: 96%;
     margin-left: 2%;
     padding: 0;
 
-/*
-    :nth-child(4n) {
-      clear: left;
-    }
-    */
-
-    .previewItem {
+    .previewItem 
+    {
       width: 33.333%;
       display: block;
       float:left;
@@ -640,25 +731,28 @@ MAIN CONTENT
       text-align: center;
     }
 
-    .previewItem span {
+    .previewItem span 
+    {
       font-size: .9em;
       float: left;
       bottom: 0px;
       width:100%;
 
+    }
   }
-}
 
 
 /******************
 ABOUT
 ******************/
-#contactColumn {
+#contactColumn 
+  {
     width: 96%;
     margin-left: 2%;
     padding: 0;
 
-    .contactItem {
+    .contactItem 
+    {
       display: block;
       float:left;
       position:relative;
@@ -666,41 +760,46 @@ ABOUT
       padding: 0 2.5%;
       width:45%;
       clear:none;
-      }
+    }
 
-    p {
+    p 
+    {
       margin: 0;
       padding:0;
       line-height: 1.4em;
-      }
+    }
 
-    span.blocky {
+    span.blocky 
+    {
       display: block;
       margin: 15px 0 0 0;
-      }
+    }
 
-     span.noTop {
+     span.noTop 
+    {
       display: block;
       margin-top: 0;
-      }
+    }
 
-    span.bold {
+    span.bold 
+    {
       font-weight: bold;
-      }  
+    }  
 
-    a {
+    a 
+    {
       text-decoration: none;
       border-bottom: 1px dotted;
-      }
+    }
 
-    .primary {
-      }
+    .primary 
+    {
+    }
 
-    .secondary {
-      }
+    .secondary 
+    {
+    }
   }
-
-   
 }
 
   
@@ -713,10 +812,9 @@ FOOTER
 /******************
 min-width 920px
 ******************/
-@media screen and (min-width: 920px) {
+@media screen and (min-width: 920px) 
+{
   
-
-
 /**********************************
 GENERAL
 ***********************************/
@@ -733,27 +831,29 @@ NAVIGATION
 MAIN CONTENT
 ******************/
 
- #mainColumn {
+ #mainColumn 
+  {
 
 /*
     :nth-child(4n) {
       clear: left;
     }
 */
-    .previewItem {
+    .previewItem 
+    {
       width: 25%;
       display: block;
 
     }
 
-    .previewItem span {
+    .previewItem span 
+    {
       font-size: .9em;
       float: left;
       bottom: 0px;
       width:100%;
-
+    }
   }
-}
 
 /******************
 CONTACT
@@ -762,8 +862,6 @@ CONTACT
 /******************
 FOOTER
 ******************/
-
-
 }
 
 /* sourceMappingURL=app.css.map */

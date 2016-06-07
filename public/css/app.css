@@ -76,10 +76,7 @@ HEADER
   width: 100%;
   background-color: #fff;
   margin-right: auto;
-  margin-left: auto;
-  /**********************************
-NAVIGATION
-***********************************/ }
+  margin-left: auto; }
   #siteheader .topRow-4 {
     position: relative;
     min-height: 1px;
@@ -186,7 +183,7 @@ NAVIGATION
     #siteheader .topRow-8 #dropnavMenu {
       display: none;
       box-sizing: border-box;
-      margin: 20px auto 0 auto; }
+      margin: 10px auto 0 auto; }
       #siteheader .topRow-8 #dropnavMenu ul {
         display: block;
         width: 100%;
@@ -223,14 +220,6 @@ NAVIGATION
           #siteheader .topRow-8 #dropnavMenu ul a:hover {
             color: #767676;
             text-decoration: none; }
-  #siteheader .menu1-1 {
-    display: none;
-    padding: 15px 0 0 15px;
-    float: left; }
-  #siteheader .menu1-2 {
-    display: none; }
-  #siteheader .menu1-3 {
-    display: none; }
 
 /******************
 MAIN CONTENT
@@ -255,11 +244,10 @@ MAIN CONTENT
     float: left;
     bottom: 0px;
     font-size: 1em; }
-
-.smallBorder {
-  border-color: #8d8d8d;
-  border-style: solid;
-  border-width: 1px; }
+  #mainColumn .smallBorder {
+    border-color: #8d8d8d;
+    border-style: solid;
+    border-width: 1px; }
 
 /******************
 ABOUT
@@ -322,44 +310,97 @@ RESPONSIVE
 /******************
 min-width 640px
 ******************/
-@media screen and (min-width: 640px) {
-  /**********************************
-GENERAL
-***********************************/
+@media screen and (min-width: 840px) {
   /**********************************
 HEADER
 ***********************************/
   #siteheader {
-    margin: 0;
-    padding: 0;
-    height: 60px;
-    background-color: transparent; }
-  /**********************************
-NAVIGATION
-***********************************/
-  #topnav {
-    positive: relative;
-    display: block; }
-    #topnav .dropnav {
-      display: none;
+    width: 100%;
+    background-color: #fff;
+    margin-right: auto;
+    margin-left: auto; }
+    #siteheader .topRow-4 {
       position: relative;
-      width: 14.3vw;
-      height: 13vw;
-      float: left; }
-    #topnav .dropnavOpen {
+      width: 33.33333333333333%;
+      min-height: 1px;
+      padding: 5px 15px 0 15px; }
+    #siteheader .dropnav {
       display: none; }
-    #topnav .dropnavClosed {
+    #siteheader .dropnavOpen {
       display: none; }
-    #topnav .headerLogo {
-      display: inline;
-      position: relative;
-      width: 80px;
-      height: 60px;
-      margin: 20px 0 0 25px;
+    #siteheader .dropnavClosed {
+      display: none; }
+    #siteheader .headerLogo {
+      display: block;
       float: left;
-      text-align: center;
-      background-size: auto 100%;
-      background-image: url(/images/app-logo.svg); }
+      margin: 0 auto;
+      position: absolute;
+      top: 10px;
+      left: 15px; }
+      #siteheader .headerLogo #logo {
+        box-sizing: border-box;
+        margin: 0 auto; }
+        #siteheader .headerLogo #logo a {
+          margin: 0 auto;
+          display: block; }
+        #siteheader .headerLogo #logo h2 {
+          font-size: 1.8em;
+          line-height: .6em;
+          padding: 19px 0 0 0;
+          -webkit-margin-before: 0em;
+          -webkit-margin-after: 0em;
+          -webkit-margin-start: 0;
+          -webkit-margin-end: 0;
+          font-weight: bold; }
+    #siteheader .topRow-8 {
+      position: relative;
+      min-height: 1px;
+      float: left;
+      padding: 0 15px;
+      width: 66.66666666666666%; }
+      #siteheader .topRow-8 #dropnavMenu {
+        display: block;
+        box-sizing: border-box;
+        margin: 2em 0 0 0;
+        /*li::after 
+            {
+            content: "";
+            display:block;
+            width: 100px;
+            margin: .3em auto 0 auto;
+            text-align: center;
+            height:1px;
+            background:#fff;
+            border-bottom:2px solid #000;
+            }
+            */ }
+        #siteheader .topRow-8 #dropnavMenu ul {
+          display: block;
+          float: right;
+          margin: .3em 0 0 0;
+          padding: 1em 0 0 0;
+          text-align: center;
+          list-style-type: none;
+          color: #fff;
+          -webkit-margin-before: 0;
+          -webkit-padding-start: 0;
+          -webkit-margin-after: 0; }
+          #siteheader .topRow-8 #dropnavMenu ul li.mobile {
+            padding: 0;
+            width: 100%;
+            display: block;
+            font-size: 1.25em;
+            font-weight: bold;
+            margin: .5em auto 0 auto;
+            color: #000;
+            text-align: center;
+            border: 0; }
+        #siteheader .topRow-8 #dropnavMenu a {
+          text-decoration: none;
+          color: #000; }
+          #siteheader .topRow-8 #dropnavMenu a:hover {
+            color: #767676;
+            text-decoration: none; }
   /******************
 MAIN CONTENT
 ******************/
@@ -367,12 +408,7 @@ MAIN CONTENT
     float: left;
     width: 96%;
     margin-left: 2%;
-    padding: 0;
-    /*
-    :nth-child(4n) {
-      clear: left;
-    }
-    */ }
+    padding: 0; }
     #mainColumn .previewItem {
       width: 33.333%;
       display: block;
