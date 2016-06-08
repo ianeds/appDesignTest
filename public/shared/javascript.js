@@ -38,6 +38,8 @@ $( ".dropnav" ).click(function() {
 $('body').on('click', '.dropnav', function() {
 	var droopnav = $( '#dropnav:nth-child(1)' );
 	droopnav.attr('class', 'dropnavOpen');
+
+	// slide menu up/down
 	$( "#dropnavMenu" ).slideToggle(600);
 	//$( "#dropnavMenu" ).slideToggle(500);
 	//$( ".dropnav.open.closed" ).removeClass( "open" ); 
@@ -46,6 +48,8 @@ $('body').on('click', '.dropnav', function() {
 $('body').on('click', '.dropnavOpen', function() {
 	var droopnav = $( '#dropnav:nth-child(1)' );
 	droopnav.attr('class', 'dropnavClosed');
+
+	// slide menu up/down
 	$( "#dropnavMenu" ).slideToggle(600);
 	//$( "#dropnavMenu" ).slideToggle(500);
 	//$( ".dropnav.open.closed" ).removeClass( "open" ); 
@@ -54,10 +58,20 @@ $('body').on('click', '.dropnavOpen', function() {
 $('body').on('click', '.dropnavClosed', function() {
 	var droopnav = $( '#dropnav:nth-child(1)' );
 	droopnav.attr('class', 'dropnavOpen');
+
+	/*
+	// make dropmenu appear when it is closed and 840 menu query engages
+	var droopmenu = $( '.topRow-8:nth-child(1)' );
+	droopmenu.css("display", "block");
+	*/
+
+	// slide menu up/down
 	$( "#dropnavMenu" ).slideToggle(600);
 	//$( "#dropnavMenu" ).slideToggle(500);
 	//$( ".dropnav.open.closed" ).removeClass( "open" ); 
 });
+
+
 
 /*
 $( "#cross" ).hide();

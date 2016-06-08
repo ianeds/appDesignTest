@@ -12,26 +12,45 @@
     </head>
 <body>
 <?php include_once("analyticstracking.php") ?>
+
+<!-- start header -->
 <header id="siteheader" class="">
-    
-    <div class="topRow-4"> 
-        <div class="dropnav" id="dropnav">
-                <div class="dropnavIcon" id="dropnavIcon"></div> 
+    <div id="top-bar">
+        <div class="container">
+            <div class="row">
+
+<!-- nav menu button -->
+
+                <div class="topRow-4"> 
+                    <div class="dropnav" id="dropnav">
+                            <div class="dropnavIcon" id="dropnavIcon">    
+                            </div> 
+                    </div>
+
+            <!-- header wordmark -->
+                    <div class="headerLogo">
+                        <div id="logo">
+                        <a href="/"><img src="/images/apparent-logo.gif" alt="Apparent Logo" class="h2Logo" height="40" width="165"></a>
+                        </div>
+                    </div>
                 </div>
-            
-            <div class="headerLogo">
-            <div id="logo">
-                <h2 id=""><a id="" href="/">apparent</a></h2></div></div>
-                
-        </div>
-    <div class="topRow-8"> 
-        <div class="" id="dropnavMenu">
-                  <ul>
-                    <li class="mobile"><a href="/about">about</a></li>
-                    <li class="mobile"><a href="/">work</a></li>
-                  </ul> 
-        </div>
+
+                <div class="topRow-8"> 
+
+        <!-- hideable dropdown menu  -->
+                    <div class="" id="dropnavMenu">
+                              <ul>
+                                <li class="mobile"><a href="/about">about</a></li>
+                                <li class="mobile"><a href="/">work</a></li>
+                              </ul> 
+                    </div> <!-- #dropnavMenu --> 
+                </div> <!-- topRow-8 -->
+            </div> <!-- .row -->
+        </div> <!-- .container -->
+    </div> <!-- #top-bar -->
 </header>
+
+<!-- end header -->
 
 @yield('main')
 
