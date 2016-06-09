@@ -37,7 +37,8 @@ img {
 
 a {
   text-decoration: none;
-  color: #000; }
+  color: #000;
+  cursor: pointer; }
   a:link, a:visited {
     color: #000; }
   a:hover {
@@ -97,7 +98,7 @@ HEADER
         position: relative;
         min-height: 1px;
         padding: 5px 15px 0 15px; }
-        #top-bar .container .row .topRow-4 .dropnav {
+        #top-bar .container .row .topRow-4 .dropnav, #top-bar .container .row .topRow-4 .dropnavOpen, #top-bar .container .row .topRow-4 .dropnavClosed {
           position: absolute;
           top: 10px;
           left: 15px;
@@ -106,7 +107,7 @@ HEADER
           height: 24px;
           padding: 10px;
           cursor: pointer; }
-          #top-bar .container .row .topRow-4 .dropnav .dropnavIcon {
+          #top-bar .container .row .topRow-4 .dropnav .dropnavIcon, #top-bar .container .row .topRow-4 .dropnavOpen .dropnavIcon, #top-bar .container .row .topRow-4 .dropnavClosed .dropnavIcon {
             display: inline;
             width: 24px;
             height: 24px;
@@ -119,52 +120,10 @@ HEADER
             right: 0;
             left: 0;
             background-image: url(/images/burger_blk.png); }
-        #top-bar .container .row .topRow-4 .dropnavOpen {
-          position: absolute;
-          top: 10px;
-          left: 15px;
-          float: left;
-          width: 24px;
-          height: 24px;
-          padding: 10px;
-          cursor: pointer; }
-          #top-bar .container .row .topRow-4 .dropnavOpen .dropnavIcon {
-            display: inline;
-            width: 24px;
-            height: 24px;
-            position: absolute;
-            text-align: center;
-            background-size: auto 100%;
-            margin: auto;
-            top: 0;
-            bottom: 0;
-            right: 0;
-            left: 0;
-            background-image: url(/images/burger_blk.png);
-            animation: play-fw 0.25s steps(7) forwards; }
-        #top-bar .container .row .topRow-4 .dropnavClosed {
-          position: absolute;
-          top: 10px;
-          left: 15px;
-          float: left;
-          width: 24px;
-          height: 24px;
-          padding: 10px;
-          cursor: pointer; }
-          #top-bar .container .row .topRow-4 .dropnavClosed .dropnavIcon {
-            display: inline;
-            width: 24px;
-            height: 24px;
-            position: absolute;
-            text-align: center;
-            background-size: auto 100%;
-            margin: auto;
-            top: 0;
-            bottom: 0;
-            right: 0;
-            left: 0;
-            background-image: url(/images/burger_blk.png);
-            animation: play-bw 0.25s steps(7) forwards; }
+        #top-bar .container .row .topRow-4 .dropnavOpen .dropnavIcon {
+          animation: play-fw 0.25s steps(7) forwards; }
+        #top-bar .container .row .topRow-4 .dropnavClosed .dropnavIcon {
+          animation: play-bw 0.25s steps(7) forwards; }
         #top-bar .container .row .topRow-4 .headerLogo {
           display: block;
           margin: 0 auto;
@@ -205,7 +164,7 @@ HEADER
           #top-bar .container .row .topRow-8 #dropnavMenu ul {
             display: block;
             width: 100%;
-            padding: 1em 0 0 0;
+            padding: 1em 0;
             text-align: center;
             position: relative;
             list-style-type: none;
@@ -231,7 +190,7 @@ HEADER
               text-align: center;
               height: 1px;
               background: #fff;
-              border-bottom: 2px solid #000; }
+              border-bottom: 1px solid #676767; }
             #top-bar .container .row .topRow-8 #dropnavMenu ul a {
               text-decoration: none;
               color: #000; }
@@ -240,32 +199,65 @@ HEADER
                 text-decoration: none; }
 
 /******************
-MAIN CONTENT
+HOMEPAGE PREVIEW CONTENT
 ******************/
 #mainColumn {
   margin: 0 auto;
-  padding: 6em 2.5% 0 2.5%;
+  padding: 5em 2.5% 0 2.5%;
   width: auto; }
-  #mainColumn .previewItem {
-    width: 100%;
-    display: block;
-    float: left;
-    position: relative;
-    margin: 0;
-    padding: 30px;
-    -webkit-box-sizing: border-box;
-    vertical-align: baseline; }
-  #mainColumn .first {
-    padding-top: 0px; }
-  #mainColumn .previewItem span {
-    vertical-align: baseline;
-    float: left;
-    bottom: 0px;
-    font-size: 1em; }
-  #mainColumn .smallBorder {
-    border-color: #8d8d8d;
-    border-style: solid;
-    border-width: 1px; }
+  #mainColumn .container {
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box; }
+    #mainColumn .container .previewItem {
+      width: 100%;
+      display: block;
+      float: left;
+      position: relative;
+      margin: 0;
+      padding: 3em;
+      -webkit-box-sizing: border-box;
+      vertical-align: baseline; }
+      #mainColumn .container .previewItem span {
+        vertical-align: baseline;
+        float: left;
+        bottom: 0px;
+        font-size: 1em; }
+    #mainColumn .container .first {
+      padding-top: 4em; }
+    #mainColumn .container .smallBorder {
+      border-color: #8d8d8d;
+      border-style: solid;
+      border-width: 1px; }
+
+/******************
+WORK PAGES
+******************/
+#workPages {
+  margin: 0 auto;
+  padding: 5em 2.5% 0 2.5%;
+  width: auto; }
+  #workPages .container {
+    margin: 0 auto;
+    box-sizing: border-box; }
+    #workPages .container .workItems {
+      margin: 0 auto;
+      width: 100%;
+      box-sizing: border-box;
+      padding: 0 5%; }
+      #workPages .container .workItems span {
+        font-size: 1.1em;
+        line-height: 1.25em;
+        text-align: center;
+        margin: 0 auto;
+        padding: 1.5em 2.5% 0 2.5%;
+        display: table;
+        box-sizing: border-box; }
+      #workPages .container .workItems .workImage {
+        margin: 0 auto;
+        padding: 2em; }
+        #workPages .container .workItems .workImage img {
+          width: 100%; }
 
 /******************
 ABOUT
@@ -317,6 +309,13 @@ footer {
     font-weight: bold;
     text-decoration: none;
     padding: 15px 10px; }
+  footer .footerContainer {
+    padding: 0 0 2.5em 0; }
+    footer .footerContainer .footerBtn a {
+      cursor: pointer; }
+    footer .footerContainer .footerBtn img {
+      display: inline;
+      padding: 0 1em 0 1em; }
 
 /******************
 ******************
@@ -362,7 +361,7 @@ HEADER
           width: 33.33333333333333%;
           display: block;
           box-sizing: border-box; }
-          #top-bar .container .row .topRow-4 .dropnav {
+          #top-bar .container .row .topRow-4 .dropnav, #top-bar .container .row .topRow-4 .dropnavOpen, #top-bar .container .row .topRow-4 .dropnavClosed {
             display: none; }
           #top-bar .container .row .topRow-4 .dropnavOpen {
             display: none; }
@@ -438,30 +437,71 @@ HEADER
     #top-bar .container::after {
       clear: both; }
   /******************
-MAIN CONTENT
+HOMEPAGE PREVIEW CONTENT
 ******************/
   #mainColumn {
     float: left;
     width: 96%;
     margin-left: 2%;
     padding: 6em 0 0 0; }
-    #mainColumn .previewItem {
-      width: 33.333%;
-      display: block;
-      float: left;
-      position: relative;
-      margin: 0;
-      padding: 0;
-      -webkit-box-sizing: border-box;
-      border: 40px solid;
-      border-color: transparent;
-      vertical-align: baseline;
-      text-align: center; }
-    #mainColumn .previewItem span {
-      font-size: .9em;
-      float: left;
-      bottom: 0px;
+    #mainColumn .container {
+      box-sizing: border-box;
+      max-width: 940px; }
+      #mainColumn .container .previewItem {
+        width: 33.333333%;
+        display: block;
+        float: left;
+        position: relative;
+        margin: 0;
+        padding: 35px;
+        box-sizing: border-box;
+        vertical-align: baseline;
+        text-align: center; }
+        #mainColumn .container .previewItem span {
+          font-size: .9em;
+          float: left;
+          bottom: 0px;
+          width: 100%; }
+  /******************
+WORK PAGES
+******************/
+  #workPages {
+    margin: 0 auto;
+    padding: 5em 2.5% 0 2.5%;
+    width: auto; }
+    #workPages .container {
+      margin: 0 auto;
+      box-sizing: border-box;
+      max-width: 940px;
       width: 100%; }
+      #workPages .container .workItems {
+        margin: 0 auto;
+        display: block;
+        box-sizing: border-box;
+        padding: 0; }
+        #workPages .container .workItems span {
+          font-size: 1.1em;
+          margin: 0 auto;
+          padding: 1.5em 2.5% 0 2.5%;
+          display: table;
+          box-sizing: border-box; }
+        #workPages .container .workItems .workImage {
+          width: 33.333333%;
+          float: left;
+          margin: 0 auto;
+          padding: 2em;
+          box-sizing: border-box; }
+          #workPages .container .workItems .workImage img {
+            width: 100%; }
+        #workPages .container .workItems .inter {
+          width: 50% !important; }
+        #workPages .container .workItems .touchscreen {
+          width: 50% !important; }
+        #workPages .container .workItems .bannerAds {
+          padding: 2em 0 2em 0 !important; }
+        #workPages .container .workItems .posters {
+          padding: 2em 0;
+          width: 50% !important; }
   /******************
 ABOUT
 ******************/
@@ -504,7 +544,7 @@ min-width 920px
 ******************/
 /*
 @media screen and (min-width: 920px) 
-{
+{ }
   
 /**********************************
 GENERAL
@@ -518,28 +558,6 @@ NAVIGATION
 /******************
 MAIN CONTENT
 ******************/
-/*
- #mainColumn 
-  {
-
-
-    .previewItem 
-    {
-      width: 25%;
-      display: block;
-
-    }
-
-    .previewItem span 
-    {
-      font-size: .9em;
-      float: left;
-      bottom: 0px;
-      width:100%;
-    }
-  }
-
-}
 /******************
 CONTACT
 ******************/

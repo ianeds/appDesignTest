@@ -25,19 +25,14 @@ class PagesController extends Controller
     return view('/pages/touchscreen');
     }
 
-    public function msSearch()
+    public function inter()
     {
-    return view('/pages/msSearch');
+    return view('/pages/inter');
     }
 
-    public function zune()
+    public function search()
     {
-    return view('/pages/zune');
-    }
-
-    public function xbox()
-    {
-    return view('/pages/xbox');
+    return view('/pages/search');
     }
 
     public function bannerAds()
@@ -45,9 +40,14 @@ class PagesController extends Controller
     return view('/pages/bannerAds');
     }
 
-    public function heavymetal()
+    public function posters()
     {
-    return view('/pages/heavymetal');
+    return view('/pages/posters');
+    }
+
+    public function logos()
+    {
+    return view('/pages/logos');
     }
 
     public function trifold()

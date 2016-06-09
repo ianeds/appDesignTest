@@ -5,19 +5,19 @@
 	<div class="container">
 		<div class="workItems">
 			<span>
-			Banner ads for AT&T
+			Various posters
 			</span>
 			
-			<div class="workImage bannerAds">
-				<img class="" src="images/160x600_template.png">
+			<div class="workImage posters">
+				<img class="" src="images/pdx-poster_pre.png">
 			</div> <!-- end .workImages -->
 
-			<div class="workImage bannerAds">
-				<img class="" src="images/485x220_template.png">
+			<div class="workImage posters">
+				<img class="" src="images/argo-rocco_pre.png">
 			</div> <!-- end .workImages -->
 
-			<div class="workImage bannerAds">
-				<img class="" src="images/300x250_template.png">
+			<div class="workImage posters">
+				<img class="" src="">
 			</div> <!-- end .workImages -->
 
 			</div> <!-- end .workItem -->
@@ -32,8 +32,8 @@
 <footer>
 	<div class="footerContainer">
 		<div class="footerBtn">
-			<a href='/search'><img src="images/goback_btn.png" width="65" height="80"></a>
-			<a href='/posters'><img src="images/seemore_btn.png" width="75" height="80"></a>
+			<a href='/bannerAds'><img src="images/goback_btn.png" width="65" height="80"></a>
+			<a href='/logos'><img src="images/seemore_btn.png" width="75" height="80"></a>
 		</div>
 	</div>
 </footer>

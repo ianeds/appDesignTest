@@ -40,7 +40,7 @@ $('body').on('click', '.dropnav', function() {
 	droopnav.attr('class', 'dropnavOpen');
 
 	// slide menu up/down
-	$( "#dropnavMenu" ).slideToggle(600);
+	$( "#dropnavMenu" ).slideToggle(300);
 	//$( "#dropnavMenu" ).slideToggle(500);
 	//$( ".dropnav.open.closed" ).removeClass( "open" ); 
 });
@@ -50,7 +50,7 @@ $('body').on('click', '.dropnavOpen', function() {
 	droopnav.attr('class', 'dropnavClosed');
 
 	// slide menu up/down
-	$( "#dropnavMenu" ).slideToggle(600);
+	$( "#dropnavMenu" ).slideToggle(300);
 	//$( "#dropnavMenu" ).slideToggle(500);
 	//$( ".dropnav.open.closed" ).removeClass( "open" ); 
 });
@@ -66,7 +66,7 @@ $('body').on('click', '.dropnavClosed', function() {
 	*/
 
 	// slide menu up/down
-	$( "#dropnavMenu" ).slideToggle(600);
+	$( "#dropnavMenu" ).slideToggle(300);
 	//$( "#dropnavMenu" ).slideToggle(500);
 	//$( ".dropnav.open.closed" ).removeClass( "open" ); 
 });

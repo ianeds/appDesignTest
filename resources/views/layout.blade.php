@@ -30,7 +30,7 @@
             <!-- header wordmark -->
                     <div class="headerLogo">
                         <div id="logo">
-                        <a href="/"><img src="/images/apparent-logo.gif" alt="Apparent Logo" class="h2Logo" height="40" width="165"></a>
+                        <a href="/"><img src="/images/apparent-logo.gif" alt="Apparent Logo" class="h2Logo" width="130" height="32" ></a>
                         </div>
                     </div>
                 </div>
