@@ -517,9 +517,52 @@ WORK PAGES
         width:100%;
         //padding: 2em;
 
-        } // end img
+        } // end .img
 
       } // end .workImage
+
+      .touchscreen 
+      {
+      //width: 50% !important;
+      //padding: 2em;
+
+      } //end .touchscreen
+      
+      .inter 
+      {
+      padding: 2em 0 2em 0;
+
+      } //end .inter
+
+      #horiz 
+      {
+      padding: 2em 4em 2em 4em;
+
+      } //end #horiz
+      
+      .search 
+      {
+      //padding: 2em 10em 2em 10em;
+    
+      } //end .search
+
+      .bannerAds 
+      {
+      //padding: 2em 6em 2em 6em;
+
+      } //end .search
+
+      .posters 
+      {
+      padding: 2em 0;
+      } // end .posters
+
+      .marks 
+      {
+      padding: 0 1em;
+
+      } // end .marks
+
     }// end .workItems
   
   } // end .container
@@ -967,7 +1010,6 @@ WORK PAGES
       .posters 
       {
 
-      padding: 2em 0;
       padding: 2em 4em;
       } // end .posters
 
@@ -976,7 +1018,7 @@ WORK PAGES
 
       padding: 0 6em;
       margin: 0 auto;
-      } // end .posters
+      } // end .marks
 
     }// end .workItems
   

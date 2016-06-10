@@ -260,6 +260,14 @@ WORK PAGES
         padding: 2em; }
         #workPages .container .workItems .workImage img {
           width: 100%; }
+      #workPages .container .workItems .inter {
+        padding: 2em 0 2em 0; }
+      #workPages .container .workItems #horiz {
+        padding: 2em 4em 2em 4em; }
+      #workPages .container .workItems .posters {
+        padding: 2em 0; }
+      #workPages .container .workItems .marks {
+        padding: 0 1em; }
 
 /******************
 ABOUT
@@ -506,7 +514,6 @@ WORK PAGES
         #workPages .container .workItems .bannerAds {
           padding: 2em 6em 2em 6em; }
         #workPages .container .workItems .posters {
-          padding: 2em 0;
           padding: 2em 4em; }
         #workPages .container .workItems .marks {
           padding: 0 6em;
