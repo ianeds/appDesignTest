@@ -5,14 +5,14 @@
 	<div class="container">
 		<div class="workItems">
 			<span>
-			Poster
+			Logo
 			</span>
 
-			<div class="workImage posters">
-				<img class="" src="images/argo-rocco_pre.png">
+			<div class="workImage marks">
+				<img class="" src="images/heavy_metal.svg">
 			</div> <!-- end .workImages -->
 
-			</div> <!-- end .workItem -->
+			</div> <!-- end .workItem s-->
 
 		</div> <!-- end .container -->
 
@@ -24,8 +24,7 @@
 <footer>
 	<div class="footerContainer">
 		<div class="footerBtn">
-			<a href='/bannerAds'><img src="images/goback_btn.png" width="65" height="80"></a>
-			<a href='/marks'><img src="images/seemore_btn.png" width="75" height="80"></a>
+			<a href='/posters'><img src="images/goback_btn.png" width="65" height="80"></a>
 		</div>
 	</div>
 </footer>

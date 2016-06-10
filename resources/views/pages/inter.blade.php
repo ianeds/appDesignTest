@@ -12,8 +12,8 @@
 				<img class="" src="images/xbox_vertical.png">
 			</div> <!-- end .workImages -->
 
-			<div class="workImage inter">
-				<img class="" src="images/xbox_horiz.png">
+			<div id="horiz" class="workImage inter">
+				<img src="images/xbox_horiz.png">
 			</div> <!-- end .workImages -->
 
 			</div> <!-- end .workItem -->
@@ -30,7 +30,7 @@
 		<div class="footerBtn">
 			<a href='/touchscreen'><img src="images/goback_btn.png" width="65" height="80"></a>
 			<a href='/search'><img src="images/seemore_btn.png" width="75" height="80"></a>
-		</div>
+		</div> <!-- end .footerBtn -->
 	</div>
 </footer>
 @stop

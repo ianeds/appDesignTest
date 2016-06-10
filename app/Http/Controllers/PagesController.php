@@ -45,9 +45,9 @@ class PagesController extends Controller
     return view('/pages/posters');
     }
 
-    public function logos()
+    public function marks()
     {
-    return view('/pages/logos');
+    return view('/pages/marks');
     }
 
     public function trifold()

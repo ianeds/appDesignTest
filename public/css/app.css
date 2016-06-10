@@ -130,7 +130,9 @@ HEADER
           display: table; }
           #top-bar .container .row .topRow-4 .headerLogo #logo {
             box-sizing: border-box;
-            margin: 0 auto; }
+            margin: 0 auto;
+            width: 130px;
+            height: 32px; }
             #top-bar .container .row .topRow-4 .headerLogo #logo a {
               margin: 0 auto;
               display: block; }
@@ -273,7 +275,8 @@ ABOUT
     position: relative;
     margin: 0;
     padding: 0 2.5%;
-    clear: left; }
+    clear: left;
+    font-size: 1.1em; }
     #contactColumn .contactItem p {
       margin: 0;
       padding: 0;
@@ -381,7 +384,7 @@ HEADER
                 margin: 0 auto;
                 display: block; }
               #top-bar .container .row .topRow-4 .headerLogo #logo .h2Logo {
-                padding: 15px 0 0 0; }
+                padding: 8px 0 0 0; }
               #top-bar .container .row .topRow-4 .headerLogo #logo h2 {
                 font-size: 1.8em;
                 line-height: .6em;
@@ -405,7 +408,6 @@ HEADER
             float: right; }
             #top-bar .container .row .topRow-8 #dropnavMenu ul {
               display: block;
-              font-size: 1.3em;
               margin: 0;
               padding: 1em 0 0 0;
               text-align: center;
@@ -417,9 +419,9 @@ HEADER
               float: right; }
               #top-bar .container .row .topRow-8 #dropnavMenu ul li.mobile {
                 display: inline;
-                font-size: 1.25em;
+                font-size: 1.5em;
                 font-weight: bold;
-                padding: 0 2em 0 0;
+                padding: 0 1.5em 0 0;
                 color: #000;
                 border: 0; }
               #top-bar .container .row .topRow-8 #dropnavMenu ul li::after {
@@ -486,22 +488,29 @@ WORK PAGES
           display: table;
           box-sizing: border-box; }
         #workPages .container .workItems .workImage {
-          width: 33.333333%;
+          width: 100%;
           float: left;
           margin: 0 auto;
-          padding: 2em;
           box-sizing: border-box; }
           #workPages .container .workItems .workImage img {
             width: 100%; }
         #workPages .container .workItems .inter {
-          width: 50% !important; }
+          padding: 2em 6em 2em 6em; }
+        #workPages .container .workItems #horiz {
+          padding: 2em 10em 2em 10em; }
         #workPages .container .workItems .touchscreen {
-          width: 50% !important; }
+          width: 50% !important;
+          padding: 2em; }
+        #workPages .container .workItems .search {
+          padding: 2em 10em 2em 10em; }
         #workPages .container .workItems .bannerAds {
-          padding: 2em 0 2em 0 !important; }
+          padding: 2em 6em 2em 6em; }
         #workPages .container .workItems .posters {
           padding: 2em 0;
-          width: 50% !important; }
+          padding: 2em 4em; }
+        #workPages .container .workItems .marks {
+          padding: 0 6em;
+          margin: 0 auto; }
   /******************
 ABOUT
 ******************/

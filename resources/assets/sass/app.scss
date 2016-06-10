@@ -291,6 +291,9 @@ top: 0px;
           {
             box-sizing: border-box;
             margin: 0 auto;
+            width: 130px; 
+            height: 32px;
+            
             //display: block;
 
             a
@@ -542,6 +545,7 @@ ABOUT
     margin: 0;
     padding: 0 2.5%;
     clear:left;
+    font-size: 1.1em;
 
     p 
     {
@@ -726,7 +730,7 @@ HEADER
 
               .h2Logo 
               {
-                padding: 15px 0 0 0;
+                padding: 8px 0 0 0;
               } // end .h2Logo
 
               
@@ -769,7 +773,6 @@ HEADER
             ul 
             {
                 display:block;
-                font-size:1.3em;
                 margin: 0;
                 //overflow: hidden;
                 padding: 1em 0 0 0;
@@ -786,9 +789,9 @@ HEADER
                   //padding: 0;
                   //width: 100%;
                   display: inline;
-                  font-size: 1.25em;
+                  font-size: 1.5em;
                   font-weight: bold;
-                  padding: 0 2em 0 0;
+                  padding: 0 1.5em 0 0;
                   color: #000;
                   //text-align: center;
                   //transition: all .3s ease-in-out;
@@ -916,10 +919,9 @@ WORK PAGES
       
       .workImage 
       {
-      width: 33.333333%;
+      width: 100%;
       float:left;
       margin: 0 auto;
-      padding: 2em;
       box-sizing: border-box;
 
         img 
@@ -933,25 +935,32 @@ WORK PAGES
 
       .inter 
       {
-      width: 50% !important;
+      padding: 2em 6em 2em 6em;
 
       } //end .inter
+
+      #horiz 
+      {
+      padding: 2em 10em 2em 10em;
+
+      } //end #horiz
 
       .touchscreen 
       {
       width: 50% !important;
+      padding: 2em;
 
       } //end .touchscreen
 
       .search 
       {
-      //width: 100% !important;
+      padding: 2em 10em 2em 10em;
     
       } //end .search
 
       .bannerAds 
       {
-      padding: 2em 0 2em 0 !important;
+      padding: 2em 6em 2em 6em;
 
       } //end .search
 
@@ -959,7 +968,14 @@ WORK PAGES
       {
 
       padding: 2em 0;
-      width: 50% !important;
+      padding: 2em 4em;
+      } // end .posters
+
+      .marks 
+      {
+
+      padding: 0 6em;
+      margin: 0 auto;
       } // end .posters
 
     }// end .workItems
