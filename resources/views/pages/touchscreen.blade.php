@@ -33,8 +33,11 @@
 @section ('footer')
 <footer>
 	<div class="footerContainer">
-		<a href='/inter'><img src="images/seemore_btn.png" width="75" height="80"></a>
-	</div>
+		<div class="footerBtn">
+			<a href='/'><img src="images/goback_btn.png" width="70" height="70"></a>
+			<a href='/inter'><img src="images/seemore_btn.png" width="70" height="70"></a>
+		</div> <!-- end .footerBtn -->
+	</div> <!-- end .footerContainer -->
 </footer>
 @stop
 

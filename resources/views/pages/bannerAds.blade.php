@@ -32,9 +32,10 @@
 <footer>
 	<div class="footerContainer">
 		<div class="footerBtn">
-			<a href='/search'><img src="images/goback_btn.png" width="65" height="80"></a>
-			<a href='/posters'><img src="images/seemore_btn.png" width="75" height="80"></a>
-		</div>
-	</div>
+			<a href='/search'><img src="images/previous_btn.png" width="70" height="70"></a>
+			<a href='/'><img src="images/goback_btn.png" width="70" height="70"></a>
+			<a href='/posters'><img src="images/seemore_btn.png" width="70" height="70"></a>
+		</div> <!-- end .footerBtn -->
+	</div> <!-- end .footerContainer -->
 </footer>
 @stop

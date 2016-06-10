@@ -9,11 +9,11 @@
 			</span>
 			
 			<div class="workImage search">
-				<img class="" src="images/search_c.png">
+				<img class="" src="images/search_a.png">
 			</div> <!-- end .workImages -->
 
 			<div class="workImage search">
-				<img class="" src="images/search_a.png">
+				<img class="" src="images/search_c.png">
 			</div> <!-- end .workImages -->
 
 			<div class="workImage search">
@@ -32,10 +32,11 @@
 <footer>
 	<div class="footerContainer">
 		<div class="footerBtn">
-			<a href='/inter'><img src="images/goback_btn.png" width="65" height="80"></a>
-			<a href='/bannerAds'><img src="images/seemore_btn.png" width="75" height="80"></a>
-		</div>
-	</div>
+			<a href='/inter'><img src="images/previous_btn.png" width="70" height="70"></a>
+			<a href='/'><img src="images/goback_btn.png" width="70" height="70"></a>
+			<a href='/bannerAds'><img src="images/seemore_btn.png" width="70" height="70"></a>
+		</div> <!-- end .footerBtn -->
+	</div> <!-- end .footerContainer -->
 </footer>
 @stop
 

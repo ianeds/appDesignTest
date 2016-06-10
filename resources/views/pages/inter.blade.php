@@ -28,10 +28,11 @@
 <footer>
 	<div class="footerContainer">
 		<div class="footerBtn">
-			<a href='/touchscreen'><img src="images/goback_btn.png" width="65" height="80"></a>
-			<a href='/search'><img src="images/seemore_btn.png" width="75" height="80"></a>
+			<a href='/touchscreen'><img src="images/previous_btn.png" width="70" height="70"></a>
+			<a href='/'><img src="images/goback_btn.png" width="70" height="70"></a>
+			<a href='/search'><img src="images/seemore_btn.png" width="70" height="70"></a>
 		</div> <!-- end .footerBtn -->
-	</div>
+	</div> <!-- end .footerContainer -->
 </footer>
 @stop
 

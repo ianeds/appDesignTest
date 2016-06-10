@@ -388,7 +388,7 @@ top: 0px;
             content: "";
             display:block;
             width: 100px;
-            margin: .3em auto 0 auto;
+            margin: .5em auto 0 auto;
             text-align: center;
             height:1px;
             background:#fff;
@@ -455,6 +455,11 @@ HOMEPAGE PREVIEW CONTENT
       font-size: 1em;
       }
     } // end .previewItem
+
+    #pre_sml
+    {
+    padding: 3em .5em 3em .5em;
+    } // end #inter_pre
 
     .first 
     {
@@ -536,7 +541,7 @@ WORK PAGES
 
       #horiz 
       {
-      padding: 2em 4em 2em 4em;
+      padding: 2em 2em 2em 2em;
 
       } //end #horiz
       
@@ -548,7 +553,7 @@ WORK PAGES
 
       .bannerAds 
       {
-      //padding: 2em 6em 2em 6em;
+      padding: 2em 0;
 
       } //end .search
 
@@ -660,12 +665,13 @@ footer
       a 
       {
       cursor: pointer;
+      padding: 0 1em 0 1em;
       } // end a
 
       img 
       {
         display: inline;
-        padding: 0 1em 0 1em;
+        
       } //end img
 
     } // end .footerBtn
@@ -907,7 +913,7 @@ HOMEPAGE PREVIEW CONTENT
         float:left;
         position:relative;
         margin: 0;
-        padding: 35px;
+        padding: 2em;
         box-sizing: border-box;
         vertical-align: baseline;
         text-align: center;
@@ -921,6 +927,11 @@ HOMEPAGE PREVIEW CONTENT
         }//end span 
 
       } //end .previewItem
+
+      #pre_sml
+      {
+      padding: 2em;
+      } // end #inter_pre
 
     } //end .container
 

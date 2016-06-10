@@ -188,7 +188,7 @@ HEADER
               content: "";
               display: block;
               width: 100px;
-              margin: .3em auto 0 auto;
+              margin: .5em auto 0 auto;
               text-align: center;
               height: 1px;
               background: #fff;
@@ -225,6 +225,8 @@ HOMEPAGE PREVIEW CONTENT
         float: left;
         bottom: 0px;
         font-size: 1em; }
+    #mainColumn .container #pre_sml {
+      padding: 3em .5em 3em .5em; }
     #mainColumn .container .first {
       padding-top: 4em; }
     #mainColumn .container .smallBorder {
@@ -263,7 +265,9 @@ WORK PAGES
       #workPages .container .workItems .inter {
         padding: 2em 0 2em 0; }
       #workPages .container .workItems #horiz {
-        padding: 2em 4em 2em 4em; }
+        padding: 2em 2em 2em 2em; }
+      #workPages .container .workItems .bannerAds {
+        padding: 2em 0; }
       #workPages .container .workItems .posters {
         padding: 2em 0; }
       #workPages .container .workItems .marks {
@@ -323,10 +327,10 @@ footer {
   footer .footerContainer {
     padding: 0 0 2.5em 0; }
     footer .footerContainer .footerBtn a {
-      cursor: pointer; }
-    footer .footerContainer .footerBtn img {
-      display: inline;
+      cursor: pointer;
       padding: 0 1em 0 1em; }
+    footer .footerContainer .footerBtn img {
+      display: inline; }
 
 /******************
 ******************
@@ -463,7 +467,7 @@ HOMEPAGE PREVIEW CONTENT
         float: left;
         position: relative;
         margin: 0;
-        padding: 35px;
+        padding: 2em;
         box-sizing: border-box;
         vertical-align: baseline;
         text-align: center; }
@@ -472,6 +476,8 @@ HOMEPAGE PREVIEW CONTENT
           float: left;
           bottom: 0px;
           width: 100%; }
+      #mainColumn .container #pre_sml {
+        padding: 2em; }
   /******************
 WORK PAGES
 ******************/
