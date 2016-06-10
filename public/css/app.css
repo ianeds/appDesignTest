@@ -328,7 +328,7 @@ footer {
     padding: 0 0 2.5em 0; }
     footer .footerContainer .footerBtn a {
       cursor: pointer;
-      padding: 0 1em 0 1em; }
+      padding: 0 .5em 0 .5em; }
     footer .footerContainer .footerBtn img {
       display: inline; }
 
