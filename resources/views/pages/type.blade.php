@@ -18,7 +18,7 @@
 			</div> <!-- end .workImages -->
 
 			<div class="workImage marks">
-				<img class="" src="images/heavy_metal.svg">
+				<img class="" src="images/Something_700x540.png">
 			</div> <!-- end .workImages -->
 
 			</div> <!-- end .workItem s-->
@@ -33,8 +33,8 @@
 <footer>
 	<div class="footerContainer">
 		<div class="footerBtn">
-			<a href='/posters'><img src="images/previous_btn.png" width="70" height="70"></a>
 			<a href='/'><img src="images/goback_btn.png" width="70" height="70"></a>
+			<a href='/posters'><img src="images/seemore_btn.png" width="70" height="70"></a>
 		</div> <!-- end .footerBtn -->
 	</div> <!-- end .footerContainer -->
 </footer>
