@@ -60,7 +60,7 @@ GENERAL
   font-style: normal; }
 
 body {
-  font-family: nimbus-sans;
+  font-family: "nimbus-sans";
   font-style: normal;
   font-weight: 400;
   font-size: 1em;
