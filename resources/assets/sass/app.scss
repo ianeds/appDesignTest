@@ -36,58 +36,21 @@ GENERAL
 
 @font-face
 {
-font-family:"nimbus-sans";
+  font-family:"nimbus-sans";
   font-weight: 400;
   font-style: italic;
 }
 
 @font-face
 {
-font-family:"nimbus-sans";
+  font-family:"nimbus-sans";
   font-weight: 700;
   font-style: normal;
 }
 
-//museo sans
-@font-face
-{
-  font-family:"museo-sans";
-  font-weight: 100;
-  font-style: normal;
-}
-
-@font-face
-{
-font-family:"museo-sans";
-  font-weight: 100;
-  font-style: italic;
-}
-
-@font-face
-{
-font-family:"museo-sans";
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face
-{
-font-family:"museo-sans";
-  font-weight: 300;
-  font-style: italic;
-}
-
-@font-face
-{
-  font-family:"museo-sans";
-  font-weight: 500;
-  font-style: normal;
-}
-//museo-sans
-
 body 
 {
-  font-family: "nimbus-sans";
+  font-family: "nimbus-sans",sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1em;
