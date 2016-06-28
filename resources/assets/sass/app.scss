@@ -28,28 +28,45 @@ GENERAL
 @font-face
 {
   font-family:"museo-sans";
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face
-{
-  font-family:"museo-sans";
-  font-weight: bold;
+  font-weight: 100;
   font-style: normal;
 }
 
 @font-face
 {
 font-family:"museo-sans";
-  font-weight: normal;
+  font-weight: 100;
   font-style: italic;
 }
+
+@font-face
+{
+font-family:"museo-sans";
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face
+{
+font-family:"museo-sans";
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face
+{
+  font-family:"museo-sans";
+  font-weight: 500;
+  font-style: normal;
+}
+
+
 
 body 
 {
   font-family: museo-sans;
   font-style: normal;
+  font-weight: 100;
   font-size: 1em;
   line-height: 1em;
   background-color: #fff;
@@ -337,7 +354,7 @@ top: 0px;
               -webkit-margin-after:0em;
               -webkit-margin-start: 0;
               -webkit-margin-end: 0;
-              font-weight: bold;
+              font-weight: 500;
             } // end h2
 
           } // end #logo
@@ -393,7 +410,7 @@ top: 0px;
               width: 100%;
               display: block;
               font-size: 1.3em;
-              font-weight: bold;
+              font-weight: 300;
               margin: .7em auto 0 auto;
               color: #000;
               text-align: center;
@@ -637,7 +654,7 @@ ABOUT
 
     span.bold 
     {
-    font-weight: bold;
+    font-weight: 500;
     } // end span.bold
   }
 
@@ -677,7 +694,7 @@ footer
   color: #000;
   a 
   {
-    font-weight: bold;
+    font-weight: 500;
     text-decoration: none;
     padding: 15px 10px;
   }
@@ -819,7 +836,7 @@ HEADER
                 -webkit-margin-after:0em;
                 -webkit-margin-start: 0;
                 -webkit-margin-end: 0;
-                font-weight: bold;
+                font-weight: 500;
 
               } //end h2
 
@@ -866,7 +883,7 @@ HEADER
                   //width: 100%;
                   display: inline;
                   font-size: 1.5em;
-                  font-weight: bold;
+                  font-weight: 500;
                   padding: 0 1.5em 0 0;
                   color: #000;
                   //text-align: center;
@@ -1114,7 +1131,7 @@ ABOUT
 
     span.bold 
     {
-      font-weight: bold;
+      font-weight: 500;
     } // end span.bold
 
     a 
