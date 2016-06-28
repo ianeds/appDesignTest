@@ -37,20 +37,28 @@ GENERAL
 @font-face
 {
   font-family:"nimbus-sans";
+  font-weight: 700;
+  font-style: normal;
+}
+
+//source sans pro
+@font-face
+{
+  font-family:"source-sans-pro";
   font-weight: 400;
-  font-style: italic;
+  font-style: normal;
 }
 
 @font-face
 {
-  font-family:"nimbus-sans";
+  font-family:"source-sans-pro";
   font-weight: 700;
   font-style: normal;
 }
 
 body 
 {
-  font-family: "nimbus-sans",sans-serif;
+  font-family: "source-sans-pro",sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1em;
@@ -867,7 +875,7 @@ HEADER
                   //padding: 0;
                   //width: 100%;
                   display: inline;
-                  font-size: 1.4em;
+                  font-size: 1.3em;
                   font-weight: 400;
                   padding: 0 1.5em 0 0;
                   color: #000;

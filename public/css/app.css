@@ -26,16 +26,21 @@ GENERAL
 
 @font-face {
   font-family: "nimbus-sans";
-  font-weight: 400;
-  font-style: italic; }
+  font-weight: 700;
+  font-style: normal; }
 
 @font-face {
-  font-family: "nimbus-sans";
+  font-family: "source-sans-pro";
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: "source-sans-pro";
   font-weight: 700;
   font-style: normal; }
 
 body {
-  font-family: "nimbus-sans",sans-serif;
+  font-family: "source-sans-pro",sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1em;
@@ -449,7 +454,7 @@ HEADER
               float: right; }
               #top-bar .container .row .topRow-8 #dropnavMenu ul li.mobile {
                 display: inline;
-                font-size: 1.4em;
+                font-size: 1.3em;
                 font-weight: 400;
                 padding: 0 1.5em 0 0;
                 color: #000;
