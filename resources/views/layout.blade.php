@@ -37,7 +37,7 @@
             <!-- header wordmark -->
                     <div class="headerLogo">
                         <div id="logo">
-                            <a href="/"><img src="/images/lamp_logo2.svg" alt="Lamp logo" class="h2Logo"></a>
+                            <a href="/"><img src="/images/lamp_logo.svg" alt="Lamp logo" class="h2Logo"></a>
                         </div>
                     </div>
                 </div>
