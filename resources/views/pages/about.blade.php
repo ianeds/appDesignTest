@@ -12,7 +12,7 @@
     <div class="contactItem secondary">
         <p>
             <span class="noTop">
-            LAMP Design Bureau<br>
+            LAMP Bureau<br>
             Minckelersstraat 18<br>
             6211 GX Maastricht</span>
             <span class='blocky'><span class='bold'>KVK</span> 65483820<br>
