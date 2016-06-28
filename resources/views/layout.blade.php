@@ -47,8 +47,8 @@
         <!-- hideable dropdown menu  -->
                     <div class="" id="dropnavMenu">
                               <ul>
-                                <li class="mobile"><a href="/about">about</a></li>
-                                <li class="mobile"><a href="/">work</a></li>
+                                <li class="mobile"><a href="/about">About</a></li>
+                                <li class="mobile"><a href="/">Work</a></li>
                               </ul> 
                     </div> <!-- #dropnavMenu --> 
                 </div> <!-- topRow-8 -->

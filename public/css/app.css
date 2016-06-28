@@ -194,8 +194,8 @@ HEADER
               padding: 0;
               width: 100%;
               display: block;
-              font-size: 1.3em;
-              font-weight: 700;
+              font-size: 1.2em;
+              font-weight: 400;
               margin: .7em auto 0 auto;
               color: #000;
               text-align: center;
@@ -449,8 +449,8 @@ HEADER
               float: right; }
               #top-bar .container .row .topRow-8 #dropnavMenu ul li.mobile {
                 display: inline;
-                font-size: 1.5em;
-                font-weight: 700;
+                font-size: 1.4em;
+                font-weight: 400;
                 padding: 0 1.5em 0 0;
                 color: #000;
                 border: 0; }
