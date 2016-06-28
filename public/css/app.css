@@ -19,8 +19,23 @@ GENERAL
   font-weight: bold;
   font-style: normal; }
 
+@font-face {
+  font-family: "museo-sans";
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "museo-sans";
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: "museo-sans";
+  font-weight: normal;
+  font-style: italic; }
+
 body {
-  font-family: NeutraText;
+  font-family: museo-sans;
   font-style: normal;
   font-size: 1em;
   line-height: 1em;
