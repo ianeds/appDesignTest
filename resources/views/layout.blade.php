@@ -3,14 +3,14 @@
     <head>
         <meta charset="UTF-8">
         <meta name="description" content="graphic design branding interactive web print">
+        <script src="https://use.typekit.net/iet7irr.js"></script>
+        <script>try{Typekit.load({ async: true });}catch(e){}</script>
         <meta name="keywords" content="graphic design,web,branding">
         <meta name="author" content="Lamp Bureau">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Lamp Bureau | Graphic design studio</title>
         <link rel="stylesheet" href="/css/normalize.css" type="text/css">
         <link rel="stylesheet" href="/css/app.css" type="text/css">
-        <script src="https://use.typekit.net/iet7irr.js"></script>
-        <script>try{Typekit.load({ async: true });}catch(e){}</script>
         <meta property="og:title" content="Lamp Bureau" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="http://lampbureau.com" />
