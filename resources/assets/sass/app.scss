@@ -30,21 +30,21 @@ GENERAL
 @font-face
 {
   font-family:"nimbus-sans";
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
 }
 
 @font-face
 {
 font-family:"nimbus-sans";
-  font-weight: normal;
+  font-weight: 400;
   font-style: italic;
 }
 
 @font-face
 {
 font-family:"nimbus-sans";
-  font-weight: bold;
+  font-weight: 700;
   font-style: normal;
 }
 
@@ -89,7 +89,7 @@ body
 {
   font-family: nimbus-sans;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 1em;
   line-height: 1em;
   background-color: #fff;
@@ -377,7 +377,7 @@ top: 0px;
               -webkit-margin-after:0em;
               -webkit-margin-start: 0;
               -webkit-margin-end: 0;
-              font-weight: bold;
+              font-weight: 700;
             } // end h2
 
           } // end #logo
@@ -433,7 +433,7 @@ top: 0px;
               width: 100%;
               display: block;
               font-size: 1.3em;
-              font-weight: bold;
+              font-weight: 700;
               margin: .7em auto 0 auto;
               color: #000;
               text-align: center;
@@ -677,7 +677,7 @@ ABOUT
 
     span.bold 
     {
-    font-weight: bold;
+    font-weight: 700;
     } // end span.bold
   }
 
@@ -717,7 +717,7 @@ footer
   color: #000;
   a 
   {
-    font-weight: bold;
+    font-weight: 700;
     text-decoration: none;
     padding: 15px 10px;
   }
@@ -859,8 +859,7 @@ HEADER
                 -webkit-margin-after:0em;
                 -webkit-margin-start: 0;
                 -webkit-margin-end: 0;
-                font-weight: bold;
-
+                font-weight: 700;
               } //end h2
 
             } //end #logo
@@ -906,7 +905,7 @@ HEADER
                   //width: 100%;
                   display: inline;
                   font-size: 1.5em;
-                  font-weight: bold;
+                  font-weight: 700;
                   padding: 0 1.5em 0 0;
                   color: #000;
                   //text-align: center;
@@ -1154,7 +1153,7 @@ ABOUT
 
     span.bold 
     {
-      font-weight: bold;
+      font-weight: 700;
     } // end span.bold
 
     a 

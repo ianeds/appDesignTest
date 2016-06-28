@@ -21,17 +21,17 @@ GENERAL
 
 @font-face {
   font-family: "nimbus-sans";
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal; }
 
 @font-face {
   font-family: "nimbus-sans";
-  font-weight: normal;
+  font-weight: 400;
   font-style: italic; }
 
 @font-face {
   font-family: "nimbus-sans";
-  font-weight: bold;
+  font-weight: 700;
   font-style: normal; }
 
 @font-face {
@@ -62,7 +62,7 @@ GENERAL
 body {
   font-family: nimbus-sans;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 1em;
   line-height: 1em;
   background-color: #fff;
@@ -187,7 +187,7 @@ HEADER
               -webkit-margin-after: 0em;
               -webkit-margin-start: 0;
               -webkit-margin-end: 0;
-              font-weight: bold; }
+              font-weight: 700; }
         #top-bar .container .row .topRow-4 .menu1-1 {
           display: none;
           padding: 30px 0 0 30px;
@@ -220,7 +220,7 @@ HEADER
               width: 100%;
               display: block;
               font-size: 1.3em;
-              font-weight: bold;
+              font-weight: 700;
               margin: .7em auto 0 auto;
               color: #000;
               text-align: center;
@@ -340,7 +340,7 @@ ABOUT
       display: block;
       margin: 15px 0 0 0; }
     #contactColumn .contactItem span.bold {
-      font-weight: bold; }
+      font-weight: 700; }
   #contactColumn a {
     text-decoration: none;
     border-bottom: 1px dotted; }
@@ -364,7 +364,7 @@ footer {
   padding: 30px 0 30px 0;
   color: #000; }
   footer a {
-    font-weight: bold;
+    font-weight: 700;
     text-decoration: none;
     padding: 15px 10px; }
   footer .footerContainer {
@@ -448,7 +448,7 @@ HEADER
                 -webkit-margin-after: 0em;
                 -webkit-margin-start: 0;
                 -webkit-margin-end: 0;
-                font-weight: bold; }
+                font-weight: 700; }
         #top-bar .container .row .topRow-8 {
           position: relative;
           height: 80px;
@@ -475,7 +475,7 @@ HEADER
               #top-bar .container .row .topRow-8 #dropnavMenu ul li.mobile {
                 display: inline;
                 font-size: 1.5em;
-                font-weight: bold;
+                font-weight: 700;
                 padding: 0 1.5em 0 0;
                 color: #000;
                 border: 0; }
@@ -597,7 +597,7 @@ ABOUT
       display: block;
       margin-top: 0; }
     #contactColumn span.bold {
-      font-weight: bold; }
+      font-weight: 700; }
     #contactColumn a {
       text-decoration: none;
       border-bottom: 1px dotted; }
