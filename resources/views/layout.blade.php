@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="description" content="graphic design branding interactive web print">
         <script src="https://use.typekit.net/iet7irr.js"></script>
-        <script>try{Typekit.load({ async: false });}catch(e){}</script>
+        <script>try{Typekit.load({ async: true });}catch(e){}</script>
         <meta name="keywords" content="graphic design,web,branding">
         <meta name="author" content="Lamp Bureau">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -37,7 +37,7 @@
             <!-- header wordmark -->
                     <div class="headerLogo">
                         <div id="logo">
-                            <a href="/"><img src="/images/lamp_logo.svg" alt="Lamp logo" class="h2Logo"></a>
+                            <a href="/"><img src="/images/lamp_logo2.svg" alt="Lamp logo" class="h2Logo"></a>
                         </div>
                     </div>
                 </div>
