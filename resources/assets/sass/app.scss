@@ -399,6 +399,9 @@ top: 0px;
         box-sizing: border-box;
         //margin: 0 auto;
         margin: 10px auto 0 auto;
+        border-bottom-style: dotted;
+        border-bottom-width: 1px;
+        border-color: #666666;
          //z-index:1;
 
           ul 
@@ -667,6 +670,11 @@ ABOUT
     {
     font-weight: 700;
     } // end span.bold
+
+    ul.servicesList
+    {
+      line-height: 1.4em;
+    } //end ul.servicesList
   }
 
   a 
@@ -872,6 +880,8 @@ HEADER
           //margin: 0 auto;
           margin: .9em 0 0 0;
           float: right;
+          border-bottom-style: none;
+          border-bottom-width: 0;
         
             ul 
             {
@@ -1104,7 +1114,7 @@ ABOUT
 
 #contactColumn 
   {
-    margin: 0 auto;
+    margin: 30px auto;
     box-sizing: border-box;
     max-width:940px;
     padding: 6em 0 0 0;
@@ -1112,11 +1122,12 @@ ABOUT
     .contactItem 
     {
       display: block;
+      box-sizing: border-box;
       float:left;
       position:relative;
       margin: 0;
-      padding: 0 2.5%;
-      width:44%;
+      padding: 0;
+   
       clear:none;
     } // end .contactItem 
 
@@ -1126,6 +1137,11 @@ ABOUT
       padding:0;
       line-height: 1.4em;
     } // end p
+    
+    ul.servicesList
+    {
+      line-height: 1.4em;
+    } //end ul.servicesList
 
     span.blocky 
     {
@@ -1137,6 +1153,7 @@ ABOUT
     {
       display: block;
       margin-top: 0;
+      line-height: 1.4em;
     } // end span.noTop
 
     span.bold 
@@ -1152,12 +1169,15 @@ ABOUT
 
     .primary 
     {
-      padding: 0 3%;
+      padding: 0 3% 0 3%;
+      width:60%;
 
     } // end .primary
 
     .secondary 
     {
+      padding: 0 3% 0 3%;
+      width:40%;
     } // end .secondary
 
   } //end #contactColumn 
