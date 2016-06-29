@@ -722,18 +722,72 @@ footer
   {
   padding: 0 0 2.5em 0;
     
-    .footerBtn 
+    .footerBtn
     {
+      display: flex;
+      justify-content: center;
       
-      a 
+      a.goback 
       {
       cursor: pointer;
-      padding: 0 .5em 0 .5em;
-      } // end a
+      display: inline-block;
+      width: 70px;
+      height: 90px;
+      background-image: url("/images/goback_btn.svg");
+      background-size: 160px;
+      background-position: 0px 0px;
+      background-repeat: no-repeat;
+      } // end a.goback
+
+      a.goback:hover
+      {
+
+      background-position: -79px 0px;
+      } // end a.goback:hover
+
+      a.seemore 
+      {
+      cursor: pointer;
+      display: inline-block;
+      width: 70px;
+      height: 90px;
+      background-image: url("/images/seemore_btn.svg");
+      background-size: 160px;
+      //float: left;
+      background-position: 0px 0px;
+      background-repeat: no-repeat;
+
+      } // end a.seemore
+
+      a.seemore:hover
+      {
+      background-position: -79px 0px;
+
+      } // end a.seemore:hover
+
+      a.previous 
+      {
+      cursor: pointer;
+      display: inline-block;
+      width: 70px;
+      height: 90px;
+      background-image: url("/images/previous_btn.svg");
+      background-size: 160px;
+      background-position: 0px 0px;
+      background-repeat: no-repeat;
+
+      } // end a.previous
+
+
+      a.previous:hover
+      {
+      background-position: -79px 0px;
+      } // end a.previous:hover
+
+    
 
       img 
       {
-        display: inline;
         
       } //end img
 

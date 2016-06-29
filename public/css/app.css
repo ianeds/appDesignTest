@@ -361,11 +361,44 @@ footer {
     padding: 15px 10px; }
   footer .footerContainer {
     padding: 0 0 2.5em 0; }
-    footer .footerContainer .footerBtn a {
-      cursor: pointer;
-      padding: 0 .5em 0 .5em; }
-    footer .footerContainer .footerBtn img {
-      display: inline; }
+    footer .footerContainer .footerBtn {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: center;
+      justify-content: center; }
+      footer .footerContainer .footerBtn a.goback {
+        cursor: pointer;
+        display: inline-block;
+        width: 70px;
+        height: 90px;
+        background-image: url("/images/goback_btn.svg");
+        background-size: 160px;
+        background-position: 0px 0px;
+        background-repeat: no-repeat; }
+      footer .footerContainer .footerBtn a.goback:hover {
+        background-position: -79px 0px; }
+      footer .footerContainer .footerBtn a.seemore {
+        cursor: pointer;
+        display: inline-block;
+        width: 70px;
+        height: 90px;
+        background-image: url("/images/seemore_btn.svg");
+        background-size: 160px;
+        background-position: 0px 0px;
+        background-repeat: no-repeat; }
+      footer .footerContainer .footerBtn a.seemore:hover {
+        background-position: -79px 0px; }
+      footer .footerContainer .footerBtn a.previous {
+        cursor: pointer;
+        display: inline-block;
+        width: 70px;
+        height: 90px;
+        background-image: url("/images/previous_btn.svg");
+        background-size: 160px;
+        background-position: 0px 0px;
+        background-repeat: no-repeat; }
+      footer .footerContainer .footerBtn a.previous:hover {
+        background-position: -79px 0px; }
 
 /******************
 ******************

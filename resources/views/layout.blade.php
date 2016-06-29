@@ -13,7 +13,7 @@
             h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
           })(document);
         </script>
-        
+
         <meta name="keywords" content="graphic design,web,branding">
         <meta name="author" content="Lamp Bureau">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -46,7 +46,7 @@
             <!-- header wordmark -->
                     <div class="headerLogo">
                         <div id="logo">
-                            <a href="/"><img src="/images/lamp_logo2.svg" alt="Lamp logo" class="h2Logo"></a>
+                            <a href="/"><img src="/images/lamp_logo.svg" alt="Lamp logo" class="h2Logo"></a>
                         </div>
                     </div>
                 </div>
@@ -75,5 +75,6 @@
 @yield('footer')
         <script src="/shared/jquery-2.2.4.js"></script>
         <script src="/shared/javascript.js"></script> 
+
     </body>
 </html>
