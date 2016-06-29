@@ -745,6 +745,12 @@ footer
       background-position: -79px 0px;
       } // end a.goback:hover
 
+      a.goback:active
+      {
+
+      background-position: -79px 0px;
+      } // end a.goback:active
+
       a.seemore 
       {
       cursor: pointer;
@@ -765,6 +771,12 @@ footer
 
       } // end a.seemore:hover
 
+      a.seemore:active
+      {
+      background-position: -79px 0px;
+
+      } // end a.seemore:active
+
       a.previous 
       {
       cursor: pointer;
@@ -784,7 +796,10 @@ footer
       background-position: -79px 0px;
       } // end a.previous:hover
 
-    
+      a.previous:active
+      {
+      background-position: -79px 0px;
+      } // end a.previous:active
 
       img 
       {
