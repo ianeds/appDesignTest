@@ -56,6 +56,23 @@ GENERAL
   font-style: normal;
 }
 
+//typekit FOUT styles
+
+.wf-loading .mobile, .wf-loading .contactItem, .wf-loading .workItems 
+{
+
+visibility: hidden;
+
+}
+
+.wf-active .mobile, .wf-active .contactItem, .wf-active .workItems, 
+.wf-inactive .mobile, .wf-inactive .contactItem, .wf-inactive .workItems 
+{
+
+visibility: visible;
+
+}
+
 body 
 {
   font-family: "source-sans-pro",sans-serif;
