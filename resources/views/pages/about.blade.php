@@ -26,8 +26,9 @@
             </span>
             <span class='blocky'>
                 <span class='bold'>KVK</span> 65483820<br>
-                <span class='bold'>BTW</span> NL366765899B01
+                <span class='bold'>BTW</span> NL366765899B01<br><br><br><br>
             </span>
+
         </p>
        </div>
 </div>
