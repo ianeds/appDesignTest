@@ -737,19 +737,23 @@ footer
       background-size: 160px;
       background-position: 0px 0px;
       background-repeat: no-repeat;
+  
+        &:hover
+        {
+        background-position: -79px 0px;
+        } // end a.goback:hover
+
+        &:active
+        {
+        background-position: -79px 0px;
+        } // end a.goback:active
+
+        &:focus
+        {
+        background-position: -79px 0px;
+        } // end a.goback:focus
+
       } // end a.goback
-
-      a.goback:hover
-      {
-
-      background-position: -79px 0px;
-      } // end a.goback:hover
-
-      a.goback:active
-      {
-
-      background-position: -79px 0px;
-      } // end a.goback:active
 
       a.seemore 
       {
@@ -759,23 +763,24 @@ footer
       height: 90px;
       background-image: url("/images/seemore_btn.svg");
       background-size: 160px;
-      //float: left;
       background-position: 0px 0px;
       background-repeat: no-repeat;
 
+        &:hover
+        {
+        background-position: -79px 0px;
+        } // end a.seemore:hover
+
+        &:active
+        {
+        background-position: -79px 0px;
+        } // end a.seemore:active
+
+        &:focus
+        {
+        background-position: -79px 0px;
+        } // end a.seemore:focus
       } // end a.seemore
-
-      a.seemore:hover
-      {
-      background-position: -79px 0px;
-
-      } // end a.seemore:hover
-
-      a.seemore:active
-      {
-      background-position: -79px 0px;
-
-      } // end a.seemore:active
 
       a.previous 
       {
@@ -788,18 +793,22 @@ footer
       background-position: 0px 0px;
       background-repeat: no-repeat;
 
+        &:hover
+        {
+        background-position: -79px 0px;
+        } // end a.previous:hover
+
+        &:active
+        {
+        background-position: -79px 0px;
+        } // end a.previous:active
+
+        &:focus
+        {
+        background-position: -79px 0px;
+        } // end a.previous:focus
+
       } // end a.previous
-
-
-      a.previous:hover
-      {
-      background-position: -79px 0px;
-      } // end a.previous:hover
-
-      a.previous:active
-      {
-      background-position: -79px 0px;
-      } // end a.previous:active
 
       img 
       {

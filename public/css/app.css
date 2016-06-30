@@ -375,10 +375,12 @@ footer {
         background-size: 160px;
         background-position: 0px 0px;
         background-repeat: no-repeat; }
-      footer .footerContainer .footerBtn a.goback:hover {
-        background-position: -79px 0px; }
-      footer .footerContainer .footerBtn a.goback:active {
-        background-position: -79px 0px; }
+        footer .footerContainer .footerBtn a.goback:hover {
+          background-position: -79px 0px; }
+        footer .footerContainer .footerBtn a.goback:active {
+          background-position: -79px 0px; }
+        footer .footerContainer .footerBtn a.goback:focus {
+          background-position: -79px 0px; }
       footer .footerContainer .footerBtn a.seemore {
         cursor: pointer;
         display: inline-block;
@@ -388,10 +390,12 @@ footer {
         background-size: 160px;
         background-position: 0px 0px;
         background-repeat: no-repeat; }
-      footer .footerContainer .footerBtn a.seemore:hover {
-        background-position: -79px 0px; }
-      footer .footerContainer .footerBtn a.seemore:active {
-        background-position: -79px 0px; }
+        footer .footerContainer .footerBtn a.seemore:hover {
+          background-position: -79px 0px; }
+        footer .footerContainer .footerBtn a.seemore:active {
+          background-position: -79px 0px; }
+        footer .footerContainer .footerBtn a.seemore:focus {
+          background-position: -79px 0px; }
       footer .footerContainer .footerBtn a.previous {
         cursor: pointer;
         display: inline-block;
@@ -401,10 +405,12 @@ footer {
         background-size: 160px;
         background-position: 0px 0px;
         background-repeat: no-repeat; }
-      footer .footerContainer .footerBtn a.previous:hover {
-        background-position: -79px 0px; }
-      footer .footerContainer .footerBtn a.previous:active {
-        background-position: -79px 0px; }
+        footer .footerContainer .footerBtn a.previous:hover {
+          background-position: -79px 0px; }
+        footer .footerContainer .footerBtn a.previous:active {
+          background-position: -79px 0px; }
+        footer .footerContainer .footerBtn a.previous:focus {
+          background-position: -79px 0px; }
 
 /******************
 ******************

@@ -71,7 +71,7 @@ $('body').on('click', '.dropnavClosed', function() {
 	//$( ".dropnav.open.closed" ).removeClass( "open" ); 
 });
 
-
+/*
 $(document).ready(function() {
     $('.hover').bind('touchstart touchend', function(e) {
         e.preventDefault();
@@ -79,7 +79,7 @@ $(document).ready(function() {
     });
 });
 
-/*
+
 $( "#cross" ).hide();
 
 $( "#dropnavMenu" ).hide();
