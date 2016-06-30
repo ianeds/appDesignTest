@@ -71,6 +71,8 @@ $('body').on('click', '.dropnavClosed', function() {
 	//$( ".dropnav.open.closed" ).removeClass( "open" ); 
 });
 
+$('body').bind('touchstart', function() {});
+
 /*
 $(document).ready(function() {
     $('.hover').bind('touchstart touchend', function(e) {
