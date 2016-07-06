@@ -5,7 +5,7 @@
 	<div class="container">
 		<div class="workItems">
 			<span>
-			Projects
+			Illustration and Design Projects
 			</span>
 
 			<div class="flexslider workImage marks">
