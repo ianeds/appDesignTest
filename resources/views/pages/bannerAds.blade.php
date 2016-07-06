@@ -5,7 +5,7 @@
 	<div class="container">
 		<div class="workItems">
 			<span>
-			Banner ads for AT&T
+			Interactive banner ads for AT&T
 			</span>
 			
 			<div class="workImage bannerAds">
