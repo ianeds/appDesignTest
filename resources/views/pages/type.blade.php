@@ -33,9 +33,9 @@
 <footer>
 	<div class="footerContainer">
 		<div class="footerBtn">
-			<a href='/projects' class="previous"></a>
+			<a href='/inter' class="previous"></a>
 			<a href='/' class="goback"></a>
-			<a href='/touchscreen' class="seemore"></a>
+			<a href='/bannerAds' class="seemore"></a>
 		</div> <!-- end .footerBtn -->
 	</div> <!-- end .footerContainer -->
 </footer>

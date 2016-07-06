@@ -5,7 +5,7 @@
 	<div class="container">
 		<div class="workItems">
 			<span>
-			Interactive designs<br> for a touch-screen kiosk
+			Touch-screen kiosk designs for telecommunications company Sprint Corporation 
 			</span>
 			
 			<div class="workImage touchscreen">
@@ -34,7 +34,7 @@
 <footer>
 	<div class="footerContainer">
 		<div class="footerBtn">
-			<a href='/type' class="previous"></a>
+			<a href='/projects' class="previous"></a>
 			<a href='/' class="goback"></a>
 			<a href='/inter' class="seemore"></a>
 		</div> <!-- end .footerBtn -->
