@@ -550,6 +550,7 @@ WORK PAGES
       width: 100%;
       box-sizing: border-box;
       padding: 0 5%;
+      zoom: 1;
 
       span 
       {
@@ -562,10 +563,9 @@ WORK PAGES
       display:table;
       box-sizing: border-box;
       } // end span
-      
+
       .workImage 
       {
-
       margin: 0 auto;
       padding: 2em;
 

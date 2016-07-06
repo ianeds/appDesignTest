@@ -4,9 +4,10 @@
 <main id="mainColumn">
 	<div class="container">
 
-		<a href="/type"><div class="previewItem"><img class="" src="images/trop_pre.png"></div></a>
+		
+		<a href="/projects"><div class="previewItem" id="pre_sml"><img class="" src="images/triptych_1_700x540.png"></div></a>
 
-		<a href="/posters"><div class="previewItem" id="pre_sml"><img class="" src="images/block_design_pre.png"></div></a>
+		<a href="/type"><div class="previewItem"><img class="" src="images/trop_pre.png"></div></a>
 
         <a href="/touchscreen"><div class="first previewItem"><img class="" src="images/touchscreens_pre.png"></div></a>
 
