@@ -5,7 +5,7 @@
 	<div class="container">
 		<div class="workItems">
 			<span>
-			Touch-screen kiosk designs for telecommunications company Sprint Corporation 
+			Touch-screen kiosk designs for telecommunications company Sprint 
 			</span>
 			
 			<div class="workImage touchscreen">
