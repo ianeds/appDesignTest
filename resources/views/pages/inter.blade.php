@@ -1,4 +1,5 @@
 @extends ('layout')
+@include('includes.header-home')
 
 @section ('main')
 <div id="workPages">
@@ -10,24 +11,17 @@
 			
 			<div class="workImage inter">
 				<img class="" src="images/xbox_vertical.png">
-			</div> <!-- end .workImages -->
+			</div> <!-- end .workImage -->
 
 			<div id="horiz" class="workImage inter">
 				<img src="images/xbox_horiz.png">
-			</div> <!-- end .workImages -->
+			</div> <!-- end .workImage -->
 			
 			<div class="workImage search">
 				<img class="" src="images/search_a.png">
-			</div> <!-- end .workImages -->
+			</div> <!-- end .workImage -->
 
-			<div class="workImage search">
-				<img class="" src="images/search_c.png">
-			</div> <!-- end .workImages -->
-
-			<div class="workImage search">
-				<img class="" src="images/search_b.png">
-			</div> <!-- end .workImages -->
-			</div> <!-- end .workItem -->
+			</div> <!-- end .workItems -->
 
 		</div> <!-- end .container -->
 
@@ -39,9 +33,9 @@
 <footer>
 	<div class="footerContainer">
 		<div class="footerBtn">
-				<a href='/touchscreen' class="previous"></a>
+			<a href='/diamonds' class="previous"></a>
 			<a href='/' class="goback"></a>
-			<a href='/type' class="seemore"></a>
+			<a href='/simplethings' class="seemore"></a>
 		</div> <!-- end .footerBtn -->
 	</div> <!-- end .footerContainer -->
 </footer>

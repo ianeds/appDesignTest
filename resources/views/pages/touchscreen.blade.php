@@ -1,4 +1,5 @@
 @extends ('layout')
+@include('includes.header-home')
 
 @section ('main')
 <div id="workPages">
@@ -34,9 +35,9 @@
 <footer>
 	<div class="footerContainer">
 		<div class="footerBtn">
-			<a href='/projects' class="previous"></a>
+			<a href='/wellthen' class="previous"></a>
 			<a href='/' class="goback"></a>
-			<a href='/inter' class="seemore"></a>
+			<a href='/diamonds' class="seemore"></a>
 		</div> <!-- end .footerBtn -->
 	</div> <!-- end .footerContainer -->
 </footer>

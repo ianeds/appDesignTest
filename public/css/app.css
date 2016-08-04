@@ -39,17 +39,26 @@ GENERAL
   font-weight: 700;
   font-style: normal; }
 
-.wf-loading .mobile, .wf-loading .contactItem, .wf-loading .workItems {
-  visibility: hidden; }
+/**
+.wf-loading .mobile, .wf-loading .contactItem, .wf-loading .workItems 
+{
 
-.wf-active .mobile, .wf-active .contactItem, .wf-active .workItems,
-.wf-inactive .mobile, .wf-inactive .contactItem, .wf-inactive .workItems {
-  visibility: visible; }
+visibility: hidden;
 
+}
+
+.wf-active .mobile, .wf-active .contactItem, .wf-active .workItems, 
+.wf-inactive .mobile, .wf-inactive .contactItem, .wf-inactive .workItems 
+{
+
+visibility: visible;
+
+}
+**/
 body {
-  font-family: "nimbus-sans",sans-serif;
+  font-family: "NeutraText",sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: normal;
   font-size: 1em;
   line-height: 1em;
   background-color: #fff;
@@ -174,7 +183,7 @@ HEADER
               -webkit-margin-after: 0em;
               -webkit-margin-start: 0;
               -webkit-margin-end: 0;
-              font-weight: 700; }
+              font-weight: bold; }
         #top-bar .container .row .topRow-4 .menu1-1 {
           display: none;
           padding: 30px 0 0 30px;
@@ -210,7 +219,7 @@ HEADER
               width: 100%;
               display: block;
               font-size: 1.2em;
-              font-weight: 400;
+              font-weight: normal;
               margin: .7em auto 0 auto;
               color: #000;
               text-align: center;
@@ -335,7 +344,7 @@ ABOUT
       display: block;
       margin: 15px 0 0 0; }
     #contactColumn .contactItem span.bold {
-      font-weight: 700; }
+      font-weight: bold; }
     #contactColumn .contactItem ul.servicesList {
       line-height: 1.4em; }
   #contactColumn a {
@@ -361,7 +370,7 @@ footer {
   padding: 30px 0 30px 0;
   color: #000; }
   footer a {
-    font-weight: 700;
+    font-weight: bold;
     text-decoration: none;
     padding: 15px 10px; }
   footer .footerContainer {
@@ -371,15 +380,16 @@ footer {
       display: flex;
       -ms-flex-pack: center;
       justify-content: center; }
-      footer .footerContainer .footerBtn a.goback {
+      footer .footerContainer .footerBtn a.arrow-buttons, footer .footerContainer .footerBtn a.goback, footer .footerContainer .footerBtn a.seemore, footer .footerContainer .footerBtn a.previous {
         cursor: pointer;
         display: inline-block;
         width: 70px;
         height: 90px;
-        background-image: url("/images/goback_btn.svg");
         background-size: 160px;
         background-position: 0px 0px;
         background-repeat: no-repeat; }
+      footer .footerContainer .footerBtn a.goback {
+        background-image: url("/images/goback_btn.svg"); }
         footer .footerContainer .footerBtn a.goback:hover {
           background-position: -79px 0px; }
         footer .footerContainer .footerBtn a.goback:active {
@@ -387,14 +397,7 @@ footer {
         footer .footerContainer .footerBtn a.goback:focus {
           background-position: -79px 0px; }
       footer .footerContainer .footerBtn a.seemore {
-        cursor: pointer;
-        display: inline-block;
-        width: 70px;
-        height: 90px;
-        background-image: url("/images/seemore_btn.svg");
-        background-size: 160px;
-        background-position: 0px 0px;
-        background-repeat: no-repeat; }
+        background-image: url("/images/seemore_btn.svg"); }
         footer .footerContainer .footerBtn a.seemore:hover {
           background-position: -79px 0px; }
         footer .footerContainer .footerBtn a.seemore:active {
@@ -402,14 +405,7 @@ footer {
         footer .footerContainer .footerBtn a.seemore:focus {
           background-position: -79px 0px; }
       footer .footerContainer .footerBtn a.previous {
-        cursor: pointer;
-        display: inline-block;
-        width: 70px;
-        height: 90px;
-        background-image: url("/images/previous_btn.svg");
-        background-size: 160px;
-        background-position: 0px 0px;
-        background-repeat: no-repeat; }
+        background-image: url("/images/previous_btn.svg"); }
         footer .footerContainer .footerBtn a.previous:hover {
           background-position: -79px 0px; }
         footer .footerContainer .footerBtn a.previous:active {
@@ -490,7 +486,7 @@ HEADER
                 -webkit-margin-after: 0em;
                 -webkit-margin-start: 0;
                 -webkit-margin-end: 0;
-                font-weight: 700; }
+                font-weight: bold; }
         #top-bar .container .row .topRow-8 {
           position: relative;
           height: 80px;
@@ -519,7 +515,7 @@ HEADER
               #top-bar .container .row .topRow-8 #dropnavMenu ul li.mobile {
                 display: inline;
                 font-size: 1.3em;
-                font-weight: 400;
+                font-weight: normal;
                 padding: 0 1.5em 0 0;
                 color: #000;
                 border: 0; }
@@ -646,7 +642,7 @@ ABOUT
       margin-top: 0;
       line-height: 1.4em; }
     #contactColumn span.bold {
-      font-weight: 700; }
+      font-weight: bold; }
     #contactColumn a {
       text-decoration: none;
       border-bottom: 1px dotted; }

@@ -1,0 +1,17 @@
+.rect-orange {
+  z-index: 4;
+}
+
+.cir-bleu {
+  z-index: 1;
+}
+
+.rect-red {
+  z-index: 3;
+    
+}
+
+.cir-jaune {
+  z-index: 2;
+  filter: url(#pictureFilter);
+}
